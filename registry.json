@@ -1,8 +1,10 @@
 {
   "libraries":[
 
-    {"name":"Mocking Service Processor", "uri":"https://raw.githubusercontent.com/apiregistry/mock0/master/mock.raml", "description":"Mocking service"},
-    {"name":"Common Annotations", "uri":"https://raw.githubusercontent.com/apiregistry/commons/master/commons.raml", "description":"Set of common annotations"}
+    {"name":"Mocking Service Processor", "location":"https://raw.githubusercontent.com/apiregistry/mock0/master/mock.raml", "description":"Mocking service"},
+    {"name":"Common Annotations", "location":"https://raw.githubusercontent.com/apiregistry/commons/master/commons.raml", "description":"Set of common annotations"}
+  ],
+  "apis":[
+    {"name": "Instagram", "location":"https://raw.githubusercontent.com/raml-apis/Instagram/master/api.raml"}
   ]
-
 }
