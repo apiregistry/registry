@@ -1,0 +1,15 @@
+#%RAML 1.0 Overlay
+extends: boxApi.raml
+uses:
+  library: https://raw.githubusercontent.com/apiregistry/storage/master/libraries/specOverlayTypesLibrary.raml
+(library.highLevelApiDescription): 
+(library.apiLogo): https://raw.githubusercontent.com/apiregistry/registry/master/projects/GoogleCalendar/logo.png
+(library.specAuthor): mulesoft.com
+(library.devPortal): https://developers.google.com/google-apps/calendar/v3/reference/​
+(library.extraResources):
+  - title: CalendarList, Event
+    type: notebook
+    uri: https://raw.githubusercontent.com/raml-apis/GoogleCalendar/master/notebooks/calendarlistEvent.md
+  - title: Calendars, Colors, Freebusy, Current user settings
+    type: notebook
+    uri: https://raw.githubusercontent.com/raml-apis/GoogleCalendar/master/notebooks/calendarsColorsFreebusyCurrentUserSettings.md

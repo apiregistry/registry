@@ -1,0 +1,18 @@
+#%RAML 1.0 Overlay
+extends: boxApi.raml
+uses:
+  library: https://raw.githubusercontent.com/apiregistry/storage/master/libraries/specOverlayTypesLibrary.raml
+(library.highLevelApiDescription): 
+(library.apiLogo): https://raw.githubusercontent.com/apiregistry/registry/master/projects/Bitly/logo.png
+(library.specAuthor): mulesoft.com
+(library.devPortal): http://dev.bitly.com/
+(library.extraResources):
+  - title: Bundles
+    type: notebook
+    uri: https://raw.githubusercontent.com/raml-apis/Bitly/master/notebooks/bundles.md
+  - title: Shorten, Expand, Info
+    type: notebook
+    uri: https://raw.githubusercontent.com/raml-apis/Bitly/master/notebooks/shortenExpandInfo.md
+  - title: Users and Links
+    type: notebook
+    uri: https://raw.githubusercontent.com/raml-apis/Bitly/master/notebooks/usersAndLinks.md

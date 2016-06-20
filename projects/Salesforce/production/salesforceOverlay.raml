@@ -1,0 +1,18 @@
+#%RAML 1.0 Overlay
+extends: boxApi.raml
+uses:
+  library: https://raw.githubusercontent.com/apiregistry/storage/master/libraries/specOverlayTypesLibrary.raml
+(library.highLevelApiDescription): 
+(library.apiLogo): 
+(library.specAuthor): mulesoft.com
+(library.devPortal): https://www.salesforce.com/us/developer/docs/api_rest/Content/resources_list.htm
+(library.extraResources):
+  - title: Password
+    type: notebook
+    uri: https://raw.githubusercontent.com/raml-apis/Salesforce/master/notebooks/password.md
+  - title: Query, queryAll, recent, quickActions, limits
+    type: notebook
+    uri: https://raw.githubusercontent.com/raml-apis/Salesforce/master/notebooks/queryQueryallRecentQuickactionsLimits.md
+  - title: SObjects
+    type: notebook
+    uri: https://raw.githubusercontent.com/raml-apis/Salesforce/master/notebooks/sobjects.md

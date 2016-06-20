@@ -1,0 +1,15 @@
+#%RAML 1.0 Overlay
+extends: boxApi.raml
+uses:
+  library: https://raw.githubusercontent.com/apiregistry/storage/master/libraries/specOverlayTypesLibrary.raml
+(library.highLevelApiDescription): 
+(library.apiLogo): https://raw.githubusercontent.com/apiregistry/registry/master/projects/LinkedIn/logo.png
+(library.specAuthor): mulesoft.com
+(library.devPortal): https://developer.linkedin.com/rest​
+(library.extraResources):
+  - title: Groups, posts, comments, jobs, companies
+    type: notebook
+    uri: https://raw.githubusercontent.com/raml-apis/LinkedIn/master/notebooks/groupsPostsCommentsJobsCompanies.md
+  - title: People, people-search
+    type: notebook
+    uri: https://raw.githubusercontent.com/raml-apis/LinkedIn/master/notebooks/peoplePeopleSearch.md

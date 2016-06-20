@@ -1,0 +1,18 @@
+#%RAML 1.0 Overlay
+extends: boxApi.raml
+uses:
+  library: https://raw.githubusercontent.com/apiregistry/storage/master/libraries/specOverlayTypesLibrary.raml
+(library.highLevelApiDescription): 
+(library.apiLogo): https://raw.githubusercontent.com/apiregistry/registry/master/projects/Zuora/logo.png
+(library.specAuthor): mulesoft.com
+(library.devPortal): https://knowledgecenter.zuora.com/D_REST_API
+(library.extraResources):
+  - title: Accounts, catalog and signature
+    type: notebook
+    uri: https://raw.githubusercontent.com/raml-apis/Zuora/master/notebooks/accountsCatalogAndSignature.md
+  - title: Subscriptions
+    type: notebook
+    uri: https://raw.githubusercontent.com/raml-apis/Zuora/master/notebooks/subscriptions.md
+  - title: Transactions, operations, usage and payment
+    type: notebook
+    uri: https://raw.githubusercontent.com/raml-apis/Zuora/master/notebooks/transactionsOperationsUsageAndPayment.md

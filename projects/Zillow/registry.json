@@ -1,0 +1,13 @@
+{"apis": {"RAMLFiles": [{
+    "name": "Zillow",
+    "description": "descriptionexamle",
+    "specAuthor": "mulesoft.com",
+    "RAMLVersion": "0.8",
+    "location": "https://raw.githubusercontent.com/raml-apis/Zillow/production/api.raml",
+    "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Zillow/production/api.json",
+    "developerPortalURI": "http://www.zillow.com/howto/api/APIOverview.htm",
+    "notebooks": [
+        {"Zillow (part 2 -- mortgage)": "https://raw.githubusercontent.com/raml-apis/Zillow/master/notebooks/mortgageOutdated.md"},
+        {"Zillow Notebook": "https://raw.githubusercontent.com/raml-apis/Zillow/master/notebooks/zillowNotebook.md"}
+    ]
+}]}}

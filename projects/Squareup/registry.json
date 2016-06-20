@@ -1,0 +1,13 @@
+{"apis": {"RAMLFiles": [{
+    "name": "Squareup",
+    "description": "descriptionexamle",
+    "specAuthor": "mulesoft.com",
+    "RAMLVersion": "0.8",
+    "location": "https://raw.githubusercontent.com/raml-apis/Squareup/production/squareup.raml",
+    "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Squareup/production/squareup.json",
+    "notebooks": [
+        {"Squareup API Notebook (items, inventory, root, batch)": "https://raw.githubusercontent.com/raml-apis/Squareup/master/notebooks/itemsInventoryRootBatch.md"},
+        {"Squareup API Notebook  (modifier-lists, categories, discounts, fees, pages)": "https://raw.githubusercontent.com/raml-apis/Squareup/master/notebooks/modifierlistsCategoriesDiscountsFeesPages.md"},
+        {"Squareup API Notebook (payments, settlements, refunds, orders, bank accounts, business, locations)": "https://raw.githubusercontent.com/raml-apis/Squareup/master/notebooks/paymentsSettlementsRefundsOrdersBankAccountsBusinessLocations.md"}
+    ]
+}]}}

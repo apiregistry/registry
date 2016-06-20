@@ -1,0 +1,20 @@
+{"apis": {"RAMLFiles": [
+    {
+        "name": "23andMe",
+        "description": "descriptionexamle",
+        "specAuthor": "mulesoft.com",
+        "RAMLVersion": "0.8",
+        "location": "https://raw.githubusercontent.com/raml-apis/23andMe/staging/api.raml",
+        "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/23andMe/staging/api.json",
+        "notebooks": [{"API Notebook": "https://raw.githubusercontent.com/raml-apis/23andMe/staging/notebooks/api/notebook.md"}]
+    },
+    {
+        "name": "23andMe Reseller",
+        "description": "descriptionexamle",
+        "specAuthor": "mulesoft.com",
+        "RAMLVersion": "0.8",
+        "location": "https://raw.githubusercontent.com/raml-apis/23andMe/staging/reseller.raml",
+        "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/23andMe/staging/reseller.json",
+        "notebooks": [{"Resellers": "https://raw.githubusercontent.com/raml-apis/23andMe/staging/notebooks/reseller/resellers.md"}]
+    }
+]}}

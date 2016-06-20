@@ -1,0 +1,17 @@
+{"apis": {
+    "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/NewRelic/logo.png",
+    "RAMLFiles": [{
+        "name": "NewRelic",
+        "description": "descriptionexamle",
+        "specAuthor": "mulesoft.com",
+        "RAMLVersion": "0.8",
+        "location": "https://raw.githubusercontent.com/raml-apis/NewRelic/production/newRelic.raml",
+        "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/NewRelic/production/newRelic.json",
+        "developerPortalURI": "http://docs.newrelic.com/docs/apis/getting-started-with-the-new-relic-rest-api",
+        "notebooks": [
+            {"Applications, application hosts and instances": "https://raw.githubusercontent.com/raml-apis/NewRelic/master/notebooks/applicationsApplicationHostsAndInstances.md"},
+            {"Servers, users, alert policies": "https://raw.githubusercontent.com/raml-apis/NewRelic/master/notebooks/serversUsersAlertPolicies.md"}
+        ],
+        "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/NewRelic/logo.png"
+    }]
+}}

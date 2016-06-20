@@ -1,0 +1,15 @@
+#%RAML 1.0 Overlay
+extends: boxApi.raml
+uses:
+  library: https://raw.githubusercontent.com/apiregistry/storage/master/libraries/specOverlayTypesLibrary.raml
+(library.highLevelApiDescription): 
+(library.apiLogo): https://raw.githubusercontent.com/apiregistry/registry/master/projects/NewRelic/logo.png
+(library.specAuthor): mulesoft.com
+(library.devPortal): http://docs.newrelic.com/docs/apis/getting-started-with-the-new-relic-rest-api
+(library.extraResources):
+  - title: Applications, application hosts and instances
+    type: notebook
+    uri: https://raw.githubusercontent.com/raml-apis/NewRelic/master/notebooks/applicationsApplicationHostsAndInstances.md
+  - title: Servers, users, alert policies
+    type: notebook
+    uri: https://raw.githubusercontent.com/raml-apis/NewRelic/master/notebooks/serversUsersAlertPolicies.md

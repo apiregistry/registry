@@ -1,0 +1,34 @@
+{"apis": {
+    "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Zendesk/logo.png",
+    "RAMLFiles": [{
+        "name": "Zendesk",
+        "description": "descriptionexamle",
+        "specAuthor": "mulesoft.com",
+        "RAMLVersion": "0.8",
+        "location": "https://raw.githubusercontent.com/raml-apis/Zendesk/production/api.raml",
+        "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Zendesk/production/api.json",
+        "developerPortalURI": "https://developer.zendesk.com",
+        "notebooks": [
+            {"Account, uploads, attachments, locales": "https://raw.githubusercontent.com/raml-apis/Zendesk/master/notebooks/accountUploadsAttachmentsLocales.md"},
+            {"Apps": "https://raw.githubusercontent.com/raml-apis/Zendesk/master/notebooks/apps.md"},
+            {"Dynamic content, forums, automations, categories": "https://raw.githubusercontent.com/raml-apis/Zendesk/master/notebooks/dynamicContentForumsAutomationsCategories.md"},
+            {"End user": "https://raw.githubusercontent.com/raml-apis/Zendesk/master/notebooks/endUser.md"},
+            {"Help center: articles, questions, translations": "https://raw.githubusercontent.com/raml-apis/Zendesk/master/notebooks/hcArticlesQuestionsTranslationsVotesAnswers.md"},
+            {"Help center: section, locale": "https://raw.githubusercontent.com/raml-apis/Zendesk/master/notebooks/hcSectionLocaleCategiesUsers.md"},
+            {"Incremental": "https://raw.githubusercontent.com/raml-apis/Zendesk/master/notebooks/incremental.md"},
+            {"Macros, ticket": "https://raw.githubusercontent.com/raml-apis/Zendesk/master/notebooks/macrosTicket.md"},
+            {"Merge users": "https://raw.githubusercontent.com/raml-apis/Zendesk/master/notebooks/mergeUsers.md"},
+            {"Organizations, organization field and subscription": "https://raw.githubusercontent.com/raml-apis/Zendesk/master/notebooks/organizationsOrganizationFieldAndSubscription.md"},
+            {"Phone numbers": "https://raw.githubusercontent.com/raml-apis/Zendesk/master/notebooks/phoneNumbers.md"},
+            {"Requests, search, portal, sharing agreements": "https://raw.githubusercontent.com/raml-apis/Zendesk/master/notebooks/requestsSearchPortalSharingAgreements.md"},
+            {"Set user password, change own password": "https://raw.githubusercontent.com/raml-apis/Zendesk/master/notebooks/setUserPasswordChangeOwnPassword.md"},
+            {"Suspended ticket, mark as spam, activities": "https://raw.githubusercontent.com/raml-apis/Zendesk/master/notebooks/suspendedTicketMarkAsSpamActivities.md"},
+            {"Twitter": "https://raw.githubusercontent.com/raml-apis/Zendesk/master/notebooks/twitter.md"},
+            {"Users, job statuses": "https://raw.githubusercontent.com/raml-apis/Zendesk/master/notebooks/usersJobStatuses.md"},
+            {"Views, oauth, bookmarks": "https://raw.githubusercontent.com/raml-apis/Zendesk/master/notebooks/viewsOauthBookmarks.md"},
+            {"Voice, ticket metric": "https://raw.githubusercontent.com/raml-apis/Zendesk/master/notebooks/voiceTicketMetric.md"},
+            {"Zendesk targets, problems, exports, import": "https://raw.githubusercontent.com/raml-apis/Zendesk/master/notebooks/zendeskTargetsProblemsExportsImport.md"}
+        ],
+        "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Zendesk/logo.png"
+    }]
+}}

@@ -1,0 +1,46 @@
+{"apis": {"RAMLFiles": [
+    {
+        "name": "Box",
+        "description": "descriptionexamle",
+        "specAuthor": "mulesoft.com",
+        "RAMLVersion": "0.8",
+        "location": "https://raw.githubusercontent.com/raml-apis/Box/production/boxAPI.raml",
+        "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Box/production/boxAPI.json",
+        "notebooks": [
+            {"Files": "https://raw.githubusercontent.com/raml-apis/Box/production/notebooks/boxAPI/files.md"},
+            {"Folders and collaborations": "https://raw.githubusercontent.com/raml-apis/Box/production/notebooks/boxAPI/foldersAndCollaborations.md"},
+            {"Tasks, task assignments, events and searches": "https://raw.githubusercontent.com/raml-apis/Box/production/notebooks/boxAPI/tasksTaskAssignmentsEventsAndSearches.md"},
+            {"Users, groups and memberships": "https://raw.githubusercontent.com/raml-apis/Box/production/notebooks/boxAPI/usersGroupsAndMemberships.md"}
+        ]
+    },
+    {
+        "name": "Box.com upload API",
+        "description": "descriptionexamle",
+        "specAuthor": "mulesoft.com",
+        "RAMLVersion": "0.8",
+        "location": "https://raw.githubusercontent.com/raml-apis/Box/production/boxUploadAPI.raml",
+        "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Box/production/boxUploadAPI.json"
+    },
+    {
+        "name": "Box",
+        "description": "descriptionexamle",
+        "specAuthor": "mulesoft.com",
+        "RAMLVersion": "1.0",
+        "location": "https://raw.githubusercontent.com/raml-apis/Box/raml1.0/boxAPI.raml",
+        "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Box/raml1.0/boxAPI.json",
+        "notebooks": [
+            {"Files": "https://raw.githubusercontent.com/raml-apis/Box/raml1.0/notebooks/boxAPI/files.md"},
+            {"Folders and collaborations": "https://raw.githubusercontent.com/raml-apis/Box/raml1.0/notebooks/boxAPI/foldersAndCollaborations.md"},
+            {"Tasks, task assignments, events and searches": "https://raw.githubusercontent.com/raml-apis/Box/raml1.0/notebooks/boxAPI/tasksTaskAssignmentsEventsAndSearches.md"},
+            {"Users, groups and memberships": "https://raw.githubusercontent.com/raml-apis/Box/raml1.0/notebooks/boxAPI/usersGroupsAndMemberships.md"}
+        ]
+    },
+    {
+        "name": "Box.com upload API",
+        "description": "descriptionexamle",
+        "specAuthor": "mulesoft.com",
+        "RAMLVersion": "1.0",
+        "location": "https://raw.githubusercontent.com/raml-apis/Box/raml1.0/boxUploadAPI.raml",
+        "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Box/raml1.0/boxUploadAPI.json"
+    }
+]}}

@@ -1,0 +1,33 @@
+{"apis": {
+    "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/GoogleCalendar/logo.png",
+    "RAMLFiles": [
+        {
+            "name": "Google Calendar",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/GoogleCalendar/production/api.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/GoogleCalendar/production/api.json",
+            "developerPortalURI": "https://developers.google.com/google-apps/calendar/v3/reference/​",
+            "notebooks": [
+                {"CalendarList, Event": "https://raw.githubusercontent.com/raml-apis/GoogleCalendar/master/notebooks/calendarlistEvent.md"},
+                {"Calendars, Colors, Freebusy, Current user settings": "https://raw.githubusercontent.com/raml-apis/GoogleCalendar/master/notebooks/calendarsColorsFreebusyCurrentUserSettings.md"}
+            ],
+            "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/GoogleCalendar/logo.png"
+        },
+        {
+            "name": "Google Calendar",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "1.0",
+            "location": "https://raw.githubusercontent.com/raml-apis/GoogleCalendar/raml1.0/api.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/GoogleCalendar/raml1.0/api.json",
+            "developerPortalURI": "https://developers.google.com/google-apps/calendar/v3/reference/​",
+            "notebooks": [
+                {"CalendarList, Event": "https://raw.githubusercontent.com/raml-apis/GoogleCalendar/master/notebooks/calendarlistEvent.md"},
+                {"Calendars, Colors, Freebusy, Current user settings": "https://raw.githubusercontent.com/raml-apis/GoogleCalendar/master/notebooks/calendarsColorsFreebusyCurrentUserSettings.md"}
+            ],
+            "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/GoogleCalendar/logo.png"
+        }
+    ]
+}}

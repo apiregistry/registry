@@ -1,0 +1,27 @@
+{"apis": {"RAMLFiles": [
+    {
+        "name": "PagerDuty Integration",
+        "description": "descriptionexamle",
+        "specAuthor": "mulesoft.com",
+        "RAMLVersion": "0.8",
+        "location": "https://raw.githubusercontent.com/raml-apis/PagerDuty/production/integration.raml",
+        "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/PagerDuty/production/integration.json",
+        "notebooks": [{"Incidents, log entries, alerts and reports": "https://raw.githubusercontent.com/raml-apis/PagerDuty/production/notebooks/integration/incidentsLogEntriesAlertsAndReports.md"}]
+    },
+    {
+        "name": "PagerDuty",
+        "description": "descriptionexamle",
+        "specAuthor": "mulesoft.com",
+        "RAMLVersion": "0.8",
+        "location": "https://raw.githubusercontent.com/raml-apis/PagerDuty/production/pagerDuty.raml",
+        "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/PagerDuty/production/pagerDuty.json",
+        "notebooks": [
+            {"Escalation policies": "https://raw.githubusercontent.com/raml-apis/PagerDuty/production/notebooks/pagerDuty/escalationPolicies.md"},
+            {"Incidents, log entries, alerts and reports": "https://raw.githubusercontent.com/raml-apis/PagerDuty/production/notebooks/pagerDuty/incidentsLogEntriesAlertsAndReports.md"},
+            {"Maintenance windows": "https://raw.githubusercontent.com/raml-apis/PagerDuty/production/notebooks/pagerDuty/maintenanceWindows.md"},
+            {"Schedules": "https://raw.githubusercontent.com/raml-apis/PagerDuty/production/notebooks/pagerDuty/schedules.md"},
+            {"Services": "https://raw.githubusercontent.com/raml-apis/PagerDuty/production/notebooks/pagerDuty/services.md"},
+            {"Users": "https://raw.githubusercontent.com/raml-apis/PagerDuty/production/notebooks/pagerDuty/users.md"}
+        ]
+    }
+]}}

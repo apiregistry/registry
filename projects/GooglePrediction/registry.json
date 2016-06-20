@@ -1,0 +1,9 @@
+{"apis": {"RAMLFiles": [{
+    "name": "Google Predicion",
+    "description": "descriptionexamle",
+    "specAuthor": "mulesoft.com",
+    "RAMLVersion": "0.8",
+    "location": "https://raw.githubusercontent.com/raml-apis/GooglePrediction/staging/api.raml",
+    "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/GooglePrediction/staging/api.json",
+    "notebooks": [{"Google Prediction": "https://raw.githubusercontent.com/raml-apis/GooglePrediction/staging/notebooks/prediction.md"}]
+}]}}

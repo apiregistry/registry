@@ -1,0 +1,38 @@
+{"apis": {"RAMLFiles": [
+    {
+        "name": "Facebook",
+        "description": "descriptionexamle",
+        "specAuthor": "mulesoft.com",
+        "RAMLVersion": "0.8",
+        "location": "https://raw.githubusercontent.com/raml-apis/Facebook/production/api.raml",
+        "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Facebook/production/api.json",
+        "notebooks": [
+            {"Auxilliary notebook": "https://raw.githubusercontent.com/raml-apis/Facebook/production/notebooks/api/auxilliaryNotebook.md"},
+            {"Graph. App part 1, user part 3": "https://raw.githubusercontent.com/raml-apis/Facebook/production/notebooks/api/graphAppPartOneUserPartThree.md"},
+            {"Graph. App part 2, group part 1": "https://raw.githubusercontent.com/raml-apis/Facebook/production/notebooks/api/graphAppPartTwoGroupPartOne.md"},
+            {"Graph. Friendlist, group part 2, link, group doc": "https://raw.githubusercontent.com/raml-apis/Facebook/production/notebooks/api/graphFriendlistGroupPartTwoLinkGroupDoc.md"},
+            {"Graph. heckins, domains, events": "https://raw.githubusercontent.com/raml-apis/Facebook/production/notebooks/api/graphHeckinsDomainsEvents.md"},
+            {"Graph. Message, user part 1": "https://raw.githubusercontent.com/raml-apis/Facebook/production/notebooks/api/graphMessageUserPartOne.md"},
+            {"Graph. Page, conversations, milestone, offer": "https://raw.githubusercontent.com/raml-apis/Facebook/production/notebooks/api/graphPageConversationsMilestoneOffer.md"},
+            {"Graph. Post, object, thread, user part 4": "https://raw.githubusercontent.com/raml-apis/Facebook/production/notebooks/api/graphPostObjectThreadUserPartFour.md"},
+            {"Graph. Status, user part 2": "https://raw.githubusercontent.com/raml-apis/Facebook/production/notebooks/api/graphStatusUserPartTwo.md"},
+            {"Graph. Test user": "https://raw.githubusercontent.com/raml-apis/Facebook/production/notebooks/api/graphTestUser.md"},
+            {"Graph. User part 5, albums, photo, comment": "https://raw.githubusercontent.com/raml-apis/Facebook/production/notebooks/api/graphUserPartFiveAlbumsPhotoComment.md"},
+            {"Graph. Video, order, review, search, request": "https://raw.githubusercontent.com/raml-apis/Facebook/production/notebooks/api/graphVideoOrderReviewSearchRequest.md"},
+            {"Open graph, actions part 1": "https://raw.githubusercontent.com/raml-apis/Facebook/production/notebooks/api/openGraphActionsPartOne.md"},
+            {"Open graph, actions part 2": "https://raw.githubusercontent.com/raml-apis/Facebook/production/notebooks/api/openGraphActionsPartTwo.md"},
+            {"Open graph, objects part 1": "https://raw.githubusercontent.com/raml-apis/Facebook/production/notebooks/api/openGraphObjectsPartOne.md"},
+            {"Open graph, objects part 3": "https://raw.githubusercontent.com/raml-apis/Facebook/production/notebooks/api/openGraphObjectsPartThree.md"},
+            {"Open graph, objects part 2": "https://raw.githubusercontent.com/raml-apis/Facebook/production/notebooks/api/openGraphObjectsPartTwo.md"}
+        ]
+    },
+    {
+        "name": "Facebook Video Upload",
+        "description": "descriptionexamle",
+        "specAuthor": "mulesoft.com",
+        "RAMLVersion": "0.8",
+        "location": "https://raw.githubusercontent.com/raml-apis/Facebook/production/postVideo.raml",
+        "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Facebook/production/postVideo.json",
+        "notebooks": [{"Facebook video upload": "https://raw.githubusercontent.com/raml-apis/Facebook/production/notebooks/postVideo/facebookVideoUpload.md"}]
+    }
+]}}

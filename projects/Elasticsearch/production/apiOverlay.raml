@@ -1,0 +1,30 @@
+#%RAML 1.0 Overlay
+extends: boxApi.raml
+uses:
+  library: https://raw.githubusercontent.com/apiregistry/storage/master/libraries/specOverlayTypesLibrary.raml
+(library.highLevelApiDescription): 
+(library.apiLogo): 
+(library.specAuthor): mulesoft.com
+(library.devPortal): http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/index.html
+(library.extraResources):
+  - title: Elasticsearch (cat, cluster, aliases)
+    type: notebook
+    uri: https://raw.githubusercontent.com/raml-apis/Elasticsearch/master/notebooks/catClusterAliases.md
+  - title: Elasticsearch (index)
+    type: notebook
+    uri: https://raw.githubusercontent.com/raml-apis/Elasticsearch/master/notebooks/index.md
+  - title: Elasticsearch (index/type)
+    type: notebook
+    uri: https://raw.githubusercontent.com/raml-apis/Elasticsearch/master/notebooks/indexType.md
+  - title: Elasticsearch (index/type/document)
+    type: notebook
+    uri: https://raw.githubusercontent.com/raml-apis/Elasticsearch/master/notebooks/indexTypeDocument.md
+  - title: Elasticsearch (nodes, cache, segments, template, mtermvectors, mget, bulk, optimize, analyze)
+    type: notebook
+    uri: https://raw.githubusercontent.com/raml-apis/Elasticsearch/master/notebooks/nodesCacheSegmentsTemplateMtermvectorsMgetBulkOptimizeAnalyze.md
+  - title: Elasticsearch (settings, mprecolate, search, msearch, mappings)
+    type: notebook
+    uri: https://raw.githubusercontent.com/raml-apis/Elasticsearch/master/notebooks/settingsMprecolateSearchMsearchMappings.md
+  - title: Elasticsearch (warmer, warmers, status, flush, bench, stats, refresh)
+    type: notebook
+    uri: https://raw.githubusercontent.com/raml-apis/Elasticsearch/master/notebooks/warmerWarmersStatusFlushBenchStatsRefresh.md

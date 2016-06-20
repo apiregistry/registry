@@ -1,0 +1,18 @@
+{"apis": {
+    "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Bitly/logo.png",
+    "RAMLFiles": [{
+        "name": "Bitly",
+        "description": "descriptionexamle",
+        "specAuthor": "mulesoft.com",
+        "RAMLVersion": "0.8",
+        "location": "https://raw.githubusercontent.com/raml-apis/Bitly/production/api.raml",
+        "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Bitly/production/api.json",
+        "developerPortalURI": "http://dev.bitly.com/",
+        "notebooks": [
+            {"Bundles": "https://raw.githubusercontent.com/raml-apis/Bitly/master/notebooks/bundles.md"},
+            {"Shorten, Expand, Info": "https://raw.githubusercontent.com/raml-apis/Bitly/master/notebooks/shortenExpandInfo.md"},
+            {"Users and Links": "https://raw.githubusercontent.com/raml-apis/Bitly/master/notebooks/usersAndLinks.md"}
+        ],
+        "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Bitly/logo.png"
+    }]
+}}

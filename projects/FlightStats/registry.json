@@ -1,0 +1,23 @@
+{"apis": {"RAMLFiles": [
+    {
+        "name": "FlightStats",
+        "description": "descriptionexamle",
+        "specAuthor": "mulesoft.com",
+        "RAMLVersion": "0.8",
+        "location": "https://raw.githubusercontent.com/raml-apis/FlightStats/production/api.raml",
+        "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/FlightStats/production/api.json",
+        "notebooks": [
+            {"Airlines, airports": "https://raw.githubusercontent.com/raml-apis/FlightStats/production/notebooks/api/airlinesAirports.md"},
+            {"Alerts, Delay Index, FIDS, Ratings": "https://raw.githubusercontent.com/raml-apis/FlightStats/production/notebooks/api/alertsDelayIndexesSchedulesWeatherRatingsFIDS.md"}
+        ]
+    },
+    {
+        "name": "Flight Status And Track",
+        "description": "descriptionexamle",
+        "specAuthor": "mulesoft.com",
+        "RAMLVersion": "0.8",
+        "location": "https://raw.githubusercontent.com/raml-apis/FlightStats/production/flightStatusAndTrack.raml",
+        "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/FlightStats/production/flightStatusAndTrack.json",
+        "notebooks": [{"Status And Tracks": "https://raw.githubusercontent.com/raml-apis/FlightStats/production/notebooks/flightStatusAndTrack/statusAndTracks.md"}]
+    }
+]}}

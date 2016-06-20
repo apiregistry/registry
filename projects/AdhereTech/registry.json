@@ -1,0 +1,8 @@
+{"apis": {"RAMLFiles": [{
+    "name": "AdhereTech External API",
+    "description": "descriptionexamle",
+    "specAuthor": "mulesoft.com",
+    "RAMLVersion": "1.0",
+    "location": "https://raw.githubusercontent.com/raml-apis/AdhereTech/raml1.0/api.raml",
+    "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/AdhereTech/raml1.0/api.json"
+}]}}

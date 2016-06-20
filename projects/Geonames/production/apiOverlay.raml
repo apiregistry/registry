@@ -1,0 +1,15 @@
+#%RAML 1.0 Overlay
+extends: boxApi.raml
+uses:
+  library: https://raw.githubusercontent.com/apiregistry/storage/master/libraries/specOverlayTypesLibrary.raml
+(library.highLevelApiDescription): 
+(library.apiLogo): https://raw.githubusercontent.com/apiregistry/registry/master/projects/Geonames/logo.png
+(library.specAuthor): mulesoft.com
+(library.devPortal): http://www.geonames.org/export/web-services.html​
+(library.extraResources):
+  - title: Geonames part 1
+    type: notebook
+    uri: https://raw.githubusercontent.com/raml-apis/Geonames/master/notebooks/geonamesPartOne.md
+  - title: Geonames part 2
+    type: notebook
+    uri: https://raw.githubusercontent.com/raml-apis/Geonames/master/notebooks/geonamesPartTwo.md

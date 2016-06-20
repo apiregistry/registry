@@ -1,0 +1,44 @@
+{"apis": {"RAMLFiles": [
+    {
+        "name": "GMail",
+        "description": "descriptionexamle",
+        "specAuthor": "mulesoft.com",
+        "RAMLVersion": "0.8",
+        "location": "https://raw.githubusercontent.com/raml-apis/GoogleMail/production/api.raml",
+        "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/GoogleMail/production/api.json",
+        "notebooks": [
+            {"Messages and Drafts": "https://raw.githubusercontent.com/raml-apis/GoogleMail/production/notebooks/api/messagesAndDrafts.md"},
+            {"Threads, History and Labels": "https://raw.githubusercontent.com/raml-apis/GoogleMail/production/notebooks/api/threadsHistoryAndLabels.md"}
+        ]
+    },
+    {
+        "name": "GMail Media Upload",
+        "description": "descriptionexamle",
+        "specAuthor": "mulesoft.com",
+        "RAMLVersion": "0.8",
+        "location": "https://raw.githubusercontent.com/raml-apis/GoogleMail/production/uploadApi.raml",
+        "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/GoogleMail/production/uploadApi.json",
+        "notebooks": [{"GMail media upload": "https://raw.githubusercontent.com/raml-apis/GoogleMail/production/notebooks/uploadApi/gmailMediaUpload.md"}]
+    },
+    {
+        "name": "GMail",
+        "description": "descriptionexamle",
+        "specAuthor": "mulesoft.com",
+        "RAMLVersion": "1.0",
+        "location": "https://raw.githubusercontent.com/raml-apis/GoogleMail/raml1.0/api.raml",
+        "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/GoogleMail/raml1.0/api.json",
+        "notebooks": [
+            {"Messages and Drafts": "https://raw.githubusercontent.com/raml-apis/GoogleMail/raml1.0/notebooks/api/messagesAndDrafts.md"},
+            {"Threads, History and Labels": "https://raw.githubusercontent.com/raml-apis/GoogleMail/raml1.0/notebooks/api/threadsHistoryAndLabels.md"}
+        ]
+    },
+    {
+        "name": "GMail Media Upload",
+        "description": "descriptionexamle",
+        "specAuthor": "mulesoft.com",
+        "RAMLVersion": "1.0",
+        "location": "https://raw.githubusercontent.com/raml-apis/GoogleMail/raml1.0/uploadApi.raml",
+        "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/GoogleMail/raml1.0/uploadApi.json",
+        "notebooks": [{"GMail media upload": "https://raw.githubusercontent.com/raml-apis/GoogleMail/raml1.0/notebooks/uploadApi/gmailMediaUpload.md"}]
+    }
+]}}

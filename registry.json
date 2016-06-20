@@ -1,10 +1,1533 @@
+
 {
   "libraries":[
 
     {"name":"Mocking Service Processor", "location":"https://raw.githubusercontent.com/apiregistry/mock0/master/mock.raml", "description":"Mocking service"},
     {"name":"Common Annotations", "location":"https://raw.githubusercontent.com/apiregistry/commons/master/commons.raml", "description":"Set of common annotations"}
   ],
-  "apis":[
-    {"name": "Instagram", "location":"https://raw.githubusercontent.com/raml-apis/Instagram/master/api.raml"}
-  ]
-}
+  "apis": [
+    {"Mandrill": {"RAMLFiles": [
+        {
+            "name": "\"Mandrill API\"",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/Mandrill/master/api.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Mandrill/master/api.json"
+        },
+        {
+            "name": "\"Mandrill API\"",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/Mandrill/staging/api.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Mandrill/staging/api.json"
+        }
+    ]}},
+    {"Parse": {"RAMLFiles": [{
+        "name": "Parse",
+        "description": "descriptionexamle",
+        "specAuthor": "mulesoft.com",
+        "RAMLVersion": "0.8",
+        "location": "https://raw.githubusercontent.com/raml-apis/Parse/production/parse.raml",
+        "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Parse/production/parse.json",
+        "developerPortalURI": "https://parse.com/docs/rest",
+        "notebooks": [
+            {"Classes and cloud functions": "https://raw.githubusercontent.com/raml-apis/Parse/master/notebooks/classesAndCloudFunctions.md"},
+            {"Files, events, push notifications, installations": "https://raw.githubusercontent.com/raml-apis/Parse/master/notebooks/filesEventsPushNotificationsInstallations.md"},
+            {"Roles": "https://raw.githubusercontent.com/raml-apis/Parse/master/notebooks/roles.md"},
+            {"Users": "https://raw.githubusercontent.com/raml-apis/Parse/master/notebooks/users.md"}
+        ]
+    }]}},
+    {"Quizlet": {"RAMLFiles": [
+        {
+            "name": "\"Quizlet\"",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/Quizlet/master/quizlet.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Quizlet/master/quizlet.json"
+        },
+        {
+            "name": "\"Quizlet\"",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/Quizlet/staging/quizlet.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Quizlet/staging/quizlet.json"
+        }
+    ]}},
+    {"Zuora": {
+        "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Zuora/logo.png",
+        "RAMLFiles": [{
+            "name": "Zuora",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/Zuora/production/zuora.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Zuora/production/zuora.json",
+            "developerPortalURI": "https://knowledgecenter.zuora.com/D_REST_API",
+            "notebooks": [
+                {"Accounts, catalog and signature": "https://raw.githubusercontent.com/raml-apis/Zuora/master/notebooks/accountsCatalogAndSignature.md"},
+                {"Subscriptions": "https://raw.githubusercontent.com/raml-apis/Zuora/master/notebooks/subscriptions.md"},
+                {"Transactions, operations, usage and payment": "https://raw.githubusercontent.com/raml-apis/Zuora/master/notebooks/transactionsOperationsUsageAndPayment.md"}
+            ],
+            "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Zuora/logo.png"
+        }]
+    }},
+    {"Postmark": {"RAMLFiles": [
+        {
+            "name": "Postmark",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/Postmark/master/api.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Postmark/master/api.json"
+        },
+        {
+            "name": "Postmark",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/Postmark/staging/api.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Postmark/staging/api.json"
+        }
+    ]}},
+    {"Fitbit": {"RAMLFiles": [
+        {
+            "name": "\"Fitbit API\"",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/Fitbit/master/api.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Fitbit/master/api.json"
+        },
+        {
+            "name": "\"Fitbit API\"",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/Fitbit/staging/api.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Fitbit/staging/api.json"
+        }
+    ]}},
+    {"PagerDuty": {"RAMLFiles": [
+        {
+            "name": "PagerDuty Integration",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/PagerDuty/production/integration.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/PagerDuty/production/integration.json",
+            "notebooks": [{"Incidents, log entries, alerts and reports": "https://raw.githubusercontent.com/raml-apis/PagerDuty/production/notebooks/integration/incidentsLogEntriesAlertsAndReports.md"}]
+        },
+        {
+            "name": "PagerDuty",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/PagerDuty/production/pagerDuty.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/PagerDuty/production/pagerDuty.json",
+            "notebooks": [
+                {"Escalation policies": "https://raw.githubusercontent.com/raml-apis/PagerDuty/production/notebooks/pagerDuty/escalationPolicies.md"},
+                {"Incidents, log entries, alerts and reports": "https://raw.githubusercontent.com/raml-apis/PagerDuty/production/notebooks/pagerDuty/incidentsLogEntriesAlertsAndReports.md"},
+                {"Maintenance windows": "https://raw.githubusercontent.com/raml-apis/PagerDuty/production/notebooks/pagerDuty/maintenanceWindows.md"},
+                {"Schedules": "https://raw.githubusercontent.com/raml-apis/PagerDuty/production/notebooks/pagerDuty/schedules.md"},
+                {"Services": "https://raw.githubusercontent.com/raml-apis/PagerDuty/production/notebooks/pagerDuty/services.md"},
+                {"Users": "https://raw.githubusercontent.com/raml-apis/PagerDuty/production/notebooks/pagerDuty/users.md"}
+            ]
+        }
+    ]}},
+    {"Jobvite": {"RAMLFiles": [
+        {
+            "name": "Jobvite API v1",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/Jobvite/master/api.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Jobvite/master/api.json"
+        },
+        {
+            "name": "Jobvite API v1",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/Jobvite/staging/api.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Jobvite/staging/api.json"
+        }
+    ]}},
+    {"EwayRapid": {"RAMLFiles": [
+        {
+            "name": "Rapid API",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/EwayRapid/master/api.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/EwayRapid/master/api.json"
+        },
+        {
+            "name": "Rapid API",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/EwayRapid/staging/api.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/EwayRapid/staging/api.json"
+        }
+    ]}},
+    {"AdhereTech": {"RAMLFiles": [{
+        "name": "AdhereTech External API",
+        "description": "descriptionexamle",
+        "specAuthor": "mulesoft.com",
+        "RAMLVersion": "1.0",
+        "location": "https://raw.githubusercontent.com/raml-apis/AdhereTech/raml1.0/api.raml",
+        "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/AdhereTech/raml1.0/api.json"
+    }]}},
+    {"Zendesk": {
+        "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Zendesk/logo.png",
+        "RAMLFiles": [{
+            "name": "Zendesk",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/Zendesk/production/api.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Zendesk/production/api.json",
+            "developerPortalURI": "https://developer.zendesk.com",
+            "notebooks": [
+                {"Account, uploads, attachments, locales": "https://raw.githubusercontent.com/raml-apis/Zendesk/master/notebooks/accountUploadsAttachmentsLocales.md"},
+                {"Apps": "https://raw.githubusercontent.com/raml-apis/Zendesk/master/notebooks/apps.md"},
+                {"Dynamic content, forums, automations, categories": "https://raw.githubusercontent.com/raml-apis/Zendesk/master/notebooks/dynamicContentForumsAutomationsCategories.md"},
+                {"End user": "https://raw.githubusercontent.com/raml-apis/Zendesk/master/notebooks/endUser.md"},
+                {"Help center: articles, questions, translations": "https://raw.githubusercontent.com/raml-apis/Zendesk/master/notebooks/hcArticlesQuestionsTranslationsVotesAnswers.md"},
+                {"Help center: section, locale": "https://raw.githubusercontent.com/raml-apis/Zendesk/master/notebooks/hcSectionLocaleCategiesUsers.md"},
+                {"Incremental": "https://raw.githubusercontent.com/raml-apis/Zendesk/master/notebooks/incremental.md"},
+                {"Macros, ticket": "https://raw.githubusercontent.com/raml-apis/Zendesk/master/notebooks/macrosTicket.md"},
+                {"Merge users": "https://raw.githubusercontent.com/raml-apis/Zendesk/master/notebooks/mergeUsers.md"},
+                {"Organizations, organization field and subscription": "https://raw.githubusercontent.com/raml-apis/Zendesk/master/notebooks/organizationsOrganizationFieldAndSubscription.md"},
+                {"Phone numbers": "https://raw.githubusercontent.com/raml-apis/Zendesk/master/notebooks/phoneNumbers.md"},
+                {"Requests, search, portal, sharing agreements": "https://raw.githubusercontent.com/raml-apis/Zendesk/master/notebooks/requestsSearchPortalSharingAgreements.md"},
+                {"Set user password, change own password": "https://raw.githubusercontent.com/raml-apis/Zendesk/master/notebooks/setUserPasswordChangeOwnPassword.md"},
+                {"Suspended ticket, mark as spam, activities": "https://raw.githubusercontent.com/raml-apis/Zendesk/master/notebooks/suspendedTicketMarkAsSpamActivities.md"},
+                {"Twitter": "https://raw.githubusercontent.com/raml-apis/Zendesk/master/notebooks/twitter.md"},
+                {"Users, job statuses": "https://raw.githubusercontent.com/raml-apis/Zendesk/master/notebooks/usersJobStatuses.md"},
+                {"Views, oauth, bookmarks": "https://raw.githubusercontent.com/raml-apis/Zendesk/master/notebooks/viewsOauthBookmarks.md"},
+                {"Voice, ticket metric": "https://raw.githubusercontent.com/raml-apis/Zendesk/master/notebooks/voiceTicketMetric.md"},
+                {"Zendesk targets, problems, exports, import": "https://raw.githubusercontent.com/raml-apis/Zendesk/master/notebooks/zendeskTargetsProblemsExportsImport.md"}
+            ],
+            "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Zendesk/logo.png"
+        }]
+    }},
+    {"MediaWiki": {"RAMLFiles": [{
+        "name": "MediaWiki",
+        "description": "descriptionexamle",
+        "specAuthor": "mulesoft.com",
+        "RAMLVersion": "1.0",
+        "location": "https://raw.githubusercontent.com/raml-apis/MediaWiki/raml1.0/api.raml",
+        "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/MediaWiki/raml1.0/api.json"
+    }]}},
+    {"Yammer": {
+        "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Yammer/logo.png",
+        "RAMLFiles": [{
+            "name": "Yammer",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/Yammer/production/api.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Yammer/production/api.json",
+            "developerPortalURI": "https://developer.yammer.com/restapi/",
+            "notebooks": [{"Yammer API notebook": "https://raw.githubusercontent.com/raml-apis/Yammer/master/notebooks/yammerApiNotebook.md"}],
+            "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Yammer/logo.png"
+        }]
+    }},
+    {"Facebook": {"RAMLFiles": [
+        {
+            "name": "Facebook",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/Facebook/production/api.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Facebook/production/api.json",
+            "notebooks": [
+                {"Auxilliary notebook": "https://raw.githubusercontent.com/raml-apis/Facebook/production/notebooks/api/auxilliaryNotebook.md"},
+                {"Graph. App part 1, user part 3": "https://raw.githubusercontent.com/raml-apis/Facebook/production/notebooks/api/graphAppPartOneUserPartThree.md"},
+                {"Graph. App part 2, group part 1": "https://raw.githubusercontent.com/raml-apis/Facebook/production/notebooks/api/graphAppPartTwoGroupPartOne.md"},
+                {"Graph. Friendlist, group part 2, link, group doc": "https://raw.githubusercontent.com/raml-apis/Facebook/production/notebooks/api/graphFriendlistGroupPartTwoLinkGroupDoc.md"},
+                {"Graph. heckins, domains, events": "https://raw.githubusercontent.com/raml-apis/Facebook/production/notebooks/api/graphHeckinsDomainsEvents.md"},
+                {"Graph. Message, user part 1": "https://raw.githubusercontent.com/raml-apis/Facebook/production/notebooks/api/graphMessageUserPartOne.md"},
+                {"Graph. Page, conversations, milestone, offer": "https://raw.githubusercontent.com/raml-apis/Facebook/production/notebooks/api/graphPageConversationsMilestoneOffer.md"},
+                {"Graph. Post, object, thread, user part 4": "https://raw.githubusercontent.com/raml-apis/Facebook/production/notebooks/api/graphPostObjectThreadUserPartFour.md"},
+                {"Graph. Status, user part 2": "https://raw.githubusercontent.com/raml-apis/Facebook/production/notebooks/api/graphStatusUserPartTwo.md"},
+                {"Graph. Test user": "https://raw.githubusercontent.com/raml-apis/Facebook/production/notebooks/api/graphTestUser.md"},
+                {"Graph. User part 5, albums, photo, comment": "https://raw.githubusercontent.com/raml-apis/Facebook/production/notebooks/api/graphUserPartFiveAlbumsPhotoComment.md"},
+                {"Graph. Video, order, review, search, request": "https://raw.githubusercontent.com/raml-apis/Facebook/production/notebooks/api/graphVideoOrderReviewSearchRequest.md"},
+                {"Open graph, actions part 1": "https://raw.githubusercontent.com/raml-apis/Facebook/production/notebooks/api/openGraphActionsPartOne.md"},
+                {"Open graph, actions part 2": "https://raw.githubusercontent.com/raml-apis/Facebook/production/notebooks/api/openGraphActionsPartTwo.md"},
+                {"Open graph, objects part 1": "https://raw.githubusercontent.com/raml-apis/Facebook/production/notebooks/api/openGraphObjectsPartOne.md"},
+                {"Open graph, objects part 3": "https://raw.githubusercontent.com/raml-apis/Facebook/production/notebooks/api/openGraphObjectsPartThree.md"},
+                {"Open graph, objects part 2": "https://raw.githubusercontent.com/raml-apis/Facebook/production/notebooks/api/openGraphObjectsPartTwo.md"}
+            ]
+        },
+        {
+            "name": "Facebook Video Upload",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/Facebook/production/postVideo.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Facebook/production/postVideo.json",
+            "notebooks": [{"Facebook video upload": "https://raw.githubusercontent.com/raml-apis/Facebook/production/notebooks/postVideo/facebookVideoUpload.md"}]
+        }
+    ]}},
+    {"FlightStats": {"RAMLFiles": [
+        {
+            "name": "FlightStats",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/FlightStats/production/api.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/FlightStats/production/api.json",
+            "notebooks": [
+                {"Airlines, airports": "https://raw.githubusercontent.com/raml-apis/FlightStats/production/notebooks/api/airlinesAirports.md"},
+                {"Alerts, Delay Index, FIDS, Ratings": "https://raw.githubusercontent.com/raml-apis/FlightStats/production/notebooks/api/alertsDelayIndexesSchedulesWeatherRatingsFIDS.md"}
+            ]
+        },
+        {
+            "name": "Flight Status And Track",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/FlightStats/production/flightStatusAndTrack.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/FlightStats/production/flightStatusAndTrack.json",
+            "notebooks": [{"Status And Tracks": "https://raw.githubusercontent.com/raml-apis/FlightStats/production/notebooks/flightStatusAndTrack/statusAndTracks.md"}]
+        }
+    ]}},
+    {"Blogger": {"RAMLFiles": [{
+        "name": "Blogger",
+        "description": "descriptionexamle",
+        "specAuthor": "mulesoft.com",
+        "RAMLVersion": "0.8",
+        "location": "https://raw.githubusercontent.com/raml-apis/Blogger/production/api.raml",
+        "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Blogger/production/api.json",
+        "developerPortalURI": "https://developers.google.com/blogger/docs/3.0/reference/index",
+        "notebooks": [{"Blogger": "https://raw.githubusercontent.com/raml-apis/Blogger/production/notebooks/blogger.md"}]
+    }]}},
+    {"Xero": {"RAMLFiles": [
+        {
+            "name": "Xero.com API",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/Xero/master/xeroAPI.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Xero/master/xeroAPI.json"
+        },
+        {
+            "name": "Xero.com API",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/Xero/staging/xeroAPI.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Xero/staging/xeroAPI.json"
+        }
+    ]}},
+    {"GoogleCalendar": {
+        "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/GoogleCalendar/logo.png",
+        "RAMLFiles": [
+            {
+                "name": "Google Calendar",
+                "description": "descriptionexamle",
+                "specAuthor": "mulesoft.com",
+                "RAMLVersion": "0.8",
+                "location": "https://raw.githubusercontent.com/raml-apis/GoogleCalendar/production/api.raml",
+                "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/GoogleCalendar/production/api.json",
+                "developerPortalURI": "https://developers.google.com/google-apps/calendar/v3/reference/​",
+                "notebooks": [
+                    {"CalendarList, Event": "https://raw.githubusercontent.com/raml-apis/GoogleCalendar/master/notebooks/calendarlistEvent.md"},
+                    {"Calendars, Colors, Freebusy, Current user settings": "https://raw.githubusercontent.com/raml-apis/GoogleCalendar/master/notebooks/calendarsColorsFreebusyCurrentUserSettings.md"}
+                ],
+                "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/GoogleCalendar/logo.png"
+            },
+            {
+                "name": "Google Calendar",
+                "description": "descriptionexamle",
+                "specAuthor": "mulesoft.com",
+                "RAMLVersion": "1.0",
+                "location": "https://raw.githubusercontent.com/raml-apis/GoogleCalendar/raml1.0/api.raml",
+                "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/GoogleCalendar/raml1.0/api.json",
+                "developerPortalURI": "https://developers.google.com/google-apps/calendar/v3/reference/​",
+                "notebooks": [
+                    {"CalendarList, Event": "https://raw.githubusercontent.com/raml-apis/GoogleCalendar/master/notebooks/calendarlistEvent.md"},
+                    {"Calendars, Colors, Freebusy, Current user settings": "https://raw.githubusercontent.com/raml-apis/GoogleCalendar/master/notebooks/calendarsColorsFreebusyCurrentUserSettings.md"}
+                ],
+                "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/GoogleCalendar/logo.png"
+            }
+        ]
+    }},
+    {"Stormpath": {"RAMLFiles": [{
+        "name": "StormPath",
+        "description": "descriptionexamle",
+        "specAuthor": "mulesoft.com",
+        "RAMLVersion": "0.8",
+        "location": "https://raw.githubusercontent.com/raml-apis/Stormpath/production/api.raml",
+        "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Stormpath/production/api.json",
+        "developerPortalURI": "http://docs.stormpath.com/rest/product-guide",
+        "notebooks": [
+            {"Accounts": "https://raw.githubusercontent.com/raml-apis/Stormpath/master/notebooks/accounts.md"},
+            {"Groups and group memberships": "https://raw.githubusercontent.com/raml-apis/Stormpath/master/notebooks/groupsAndGroupMemberships.md"},
+            {"Tenants, applications, directories": "https://raw.githubusercontent.com/raml-apis/Stormpath/master/notebooks/tenantsApplicationsDirectories.md"}
+        ]
+    }]}},
+    {"23andMe": {"RAMLFiles": [
+        {
+            "name": "23andMe",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/23andMe/staging/api.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/23andMe/staging/api.json",
+            "notebooks": [{"API Notebook": "https://raw.githubusercontent.com/raml-apis/23andMe/staging/notebooks/api/notebook.md"}]
+        },
+        {
+            "name": "23andMe Reseller",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/23andMe/staging/reseller.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/23andMe/staging/reseller.json",
+            "notebooks": [{"Resellers": "https://raw.githubusercontent.com/raml-apis/23andMe/staging/notebooks/reseller/resellers.md"}]
+        }
+    ]}},
+    {"Box": {"RAMLFiles": [
+        {
+            "name": "Box",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/Box/production/boxAPI.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Box/production/boxAPI.json",
+            "notebooks": [
+                {"Files": "https://raw.githubusercontent.com/raml-apis/Box/production/notebooks/boxAPI/files.md"},
+                {"Folders and collaborations": "https://raw.githubusercontent.com/raml-apis/Box/production/notebooks/boxAPI/foldersAndCollaborations.md"},
+                {"Tasks, task assignments, events and searches": "https://raw.githubusercontent.com/raml-apis/Box/production/notebooks/boxAPI/tasksTaskAssignmentsEventsAndSearches.md"},
+                {"Users, groups and memberships": "https://raw.githubusercontent.com/raml-apis/Box/production/notebooks/boxAPI/usersGroupsAndMemberships.md"}
+            ]
+        },
+        {
+            "name": "Box.com upload API",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/Box/production/boxUploadAPI.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Box/production/boxUploadAPI.json"
+        },
+        {
+            "name": "Box",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "1.0",
+            "location": "https://raw.githubusercontent.com/raml-apis/Box/raml1.0/boxAPI.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Box/raml1.0/boxAPI.json",
+            "notebooks": [
+                {"Files": "https://raw.githubusercontent.com/raml-apis/Box/raml1.0/notebooks/boxAPI/files.md"},
+                {"Folders and collaborations": "https://raw.githubusercontent.com/raml-apis/Box/raml1.0/notebooks/boxAPI/foldersAndCollaborations.md"},
+                {"Tasks, task assignments, events and searches": "https://raw.githubusercontent.com/raml-apis/Box/raml1.0/notebooks/boxAPI/tasksTaskAssignmentsEventsAndSearches.md"},
+                {"Users, groups and memberships": "https://raw.githubusercontent.com/raml-apis/Box/raml1.0/notebooks/boxAPI/usersGroupsAndMemberships.md"}
+            ]
+        },
+        {
+            "name": "Box.com upload API",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "1.0",
+            "location": "https://raw.githubusercontent.com/raml-apis/Box/raml1.0/boxUploadAPI.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Box/raml1.0/boxUploadAPI.json"
+        }
+    ]}},
+    {"GoogleContacts": {
+        "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/GoogleContacts/logo.png",
+        "RAMLFiles": [{
+            "name": "Google Contacts API",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/GoogleContacts/production/gc.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/GoogleContacts/production/gc.json",
+            "developerPortalURI": "https://developers.google.com/google-apps/contacts/v3/",
+            "notebooks": [{"Google Contacts (cloned)": "https://raw.githubusercontent.com/raml-apis/GoogleContacts/master/notebooks/notebook.md"}],
+            "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/GoogleContacts/logo.png"
+        }]
+    }},
+    {"LinkedIn": {
+        "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/LinkedIn/logo.png",
+        "RAMLFiles": [{
+            "name": "LinkedIn",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/LinkedIn/production/linkedin.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/LinkedIn/production/linkedin.json",
+            "developerPortalURI": "https://developer.linkedin.com/rest​",
+            "notebooks": [
+                {"Groups, posts, comments, jobs, companies": "https://raw.githubusercontent.com/raml-apis/LinkedIn/master/notebooks/groupsPostsCommentsJobsCompanies.md"},
+                {"People, people-search": "https://raw.githubusercontent.com/raml-apis/LinkedIn/master/notebooks/peoplePeopleSearch.md"}
+            ],
+            "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/LinkedIn/logo.png"
+        }]
+    }},
+    {"Uber": {"RAMLFiles": [
+        {
+            "name": "Uber",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/Uber/production/api.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Uber/production/api.json",
+            "notebooks": [{"Uber": "https://raw.githubusercontent.com/raml-apis/Uber/production/notebooks/api/uber.md"}]
+        },
+        {
+            "name": "Uber user activity",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/Uber/production/userActivity.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Uber/production/userActivity.json",
+            "notebooks": [{"User activity": "https://raw.githubusercontent.com/raml-apis/Uber/production/notebooks/userActivity/userActivity.md"}]
+        },
+        {
+            "name": "Uber",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "1.0",
+            "location": "https://raw.githubusercontent.com/raml-apis/Uber/raml1.0/api.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Uber/raml1.0/api.json",
+            "notebooks": [{"Uber": "https://raw.githubusercontent.com/raml-apis/Uber/raml1.0/notebooks/api/uber.md"}]
+        },
+        {
+            "name": "Uber user activity",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "1.0",
+            "location": "https://raw.githubusercontent.com/raml-apis/Uber/raml1.0/userActivity.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Uber/raml1.0/userActivity.json",
+            "notebooks": [{"User activity": "https://raw.githubusercontent.com/raml-apis/Uber/raml1.0/notebooks/userActivity/userActivity.md"}]
+        }
+    ]}},
+    {"Slack": {
+        "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Slack/logo.png",
+        "RAMLFiles": [
+            {
+                "name": "Slack",
+                "description": "descriptionexamle",
+                "specAuthor": "mulesoft.com",
+                "RAMLVersion": "0.8",
+                "location": "https://raw.githubusercontent.com/raml-apis/Slack/production/slack.raml",
+                "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Slack/production/slack.json",
+                "developerPortalURI": "https://api.slack.com/",
+                "notebooks": [{"Slack API notebook": "https://raw.githubusercontent.com/raml-apis/Slack/master/notebooks/slackApiNotebook.md"}],
+                "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Slack/logo.png"
+            },
+            {
+                "name": "Slack",
+                "description": "descriptionexamle",
+                "specAuthor": "mulesoft.com",
+                "RAMLVersion": "1.0",
+                "location": "https://raw.githubusercontent.com/raml-apis/Slack/raml1.0/slack.raml",
+                "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Slack/raml1.0/slack.json",
+                "developerPortalURI": "https://api.slack.com/",
+                "notebooks": [{"Slack API notebook": "https://raw.githubusercontent.com/raml-apis/Slack/master/notebooks/slackApiNotebook.md"}],
+                "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Slack/logo.png"
+            }
+        ]
+    }},
+    {"SalesforceChatter": {"RAMLFiles": [{
+        "name": "Chatter",
+        "description": "descriptionexamle",
+        "specAuthor": "mulesoft.com",
+        "RAMLVersion": "0.8",
+        "location": "https://raw.githubusercontent.com/raml-apis/SalesforceChatter/production/api.raml",
+        "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/SalesforceChatter/production/api.json"
+    }]}},
+    {"Office365": {"RAMLFiles": [
+        {
+            "name": "Office 365",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/Office365/master/api.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Office365/master/api.json"
+        },
+        {
+            "name": "Files REST API in Office 365",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/Office365/master/fileAPI.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Office365/master/fileAPI.json"
+        },
+        {
+            "name": "Office 365",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/Office365/staging/api.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Office365/staging/api.json"
+        },
+        {
+            "name": "Files REST API in Office 365",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/Office365/staging/fileAPI.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Office365/staging/fileAPI.json"
+        }
+    ]}},
+    {"Magento": {"RAMLFiles": [
+        {
+            "name": "Magento",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/Magento/master/api.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Magento/master/api.json"
+        },
+        {
+            "name": "Magento",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/Magento/staging/api.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Magento/staging/api.json"
+        }
+    ]}},
+    {"Wordpress": {"RAMLFiles": [
+        {
+            "name": "WordPress API",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/Wordpress/master/wordpress.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Wordpress/master/wordpress.json"
+        },
+        {
+            "name": "WordPress API",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/Wordpress/staging/wordpress.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Wordpress/staging/wordpress.json"
+        }
+    ]}},
+    {"Instagram": {"RAMLFiles": [
+        {
+            "name": "Instagram",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/Instagram/production/api.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Instagram/production/api.json",
+            "developerPortalURI": "http://instagram.com/developer​",
+            "notebooks": [{"Instagram RAML API Notebook": "https://raw.githubusercontent.com/raml-apis/Instagram/master/notebooks/instagramNotebook.md"}]
+        },
+        {
+            "name": "Instagram",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "1.0",
+            "location": "https://raw.githubusercontent.com/raml-apis/Instagram/raml1.0/api.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Instagram/raml1.0/api.json",
+            "developerPortalURI": "http://instagram.com/developer​",
+            "notebooks": [{"Instagram RAML API Notebook": "https://raw.githubusercontent.com/raml-apis/Instagram/master/notebooks/instagramNotebook.md"}]
+        }
+    ]}},
+    {"Twilio": {
+        "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Twilio/logo.png",
+        "RAMLFiles": [{
+            "name": "Twilio API",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/Twilio/production/api.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Twilio/production/api.json",
+            "developerPortalURI": "www.twilio.com/docs/api/rest",
+            "notebooks": [
+                {"Add incoming numbers": "https://raw.githubusercontent.com/raml-apis/Twilio/master/notebooks/addIncomingNumbers.md"},
+                {"Applications, Notifications, Incoming Numbers": "https://raw.githubusercontent.com/raml-apis/Twilio/master/notebooks/applicationsNotificationsIncomingNumbers.md"},
+                {"Conferences": "https://raw.githubusercontent.com/raml-apis/Twilio/master/notebooks/conferences.md"},
+                {"Connect Apps, Authorized Connect Apps": "https://raw.githubusercontent.com/raml-apis/Twilio/master/notebooks/connectAppsAuthorizedConnectAppsAndUsage.md"},
+                {"Dangerous methods": "https://raw.githubusercontent.com/raml-apis/Twilio/master/notebooks/dangerousMethods.md"},
+                {"Outgoing Caller Id, Available Numbers and Calls": "https://raw.githubusercontent.com/raml-apis/Twilio/master/notebooks/outgoingCallerIdAvailablePhoneNumbersCalls.md"},
+                {"Queues": "https://raw.githubusercontent.com/raml-apis/Twilio/master/notebooks/queues.md"},
+                {"Recordings": "https://raw.githubusercontent.com/raml-apis/Twilio/master/notebooks/recordings.md"},
+                {"SIP CredentialLists": "https://raw.githubusercontent.com/raml-apis/Twilio/master/notebooks/sipCredentiallists.md"},
+                {"SIP IpAccessControlLists": "https://raw.githubusercontent.com/raml-apis/Twilio/master/notebooks/sipIpaccesscontrollists.md"},
+                {"SMS, Messages, making Calls": "https://raw.githubusercontent.com/raml-apis/Twilio/master/notebooks/smsMessagesMakingCalls.md"},
+                {"Transcriptions": "https://raw.githubusercontent.com/raml-apis/Twilio/master/notebooks/transcriptions.md"}
+            ],
+            "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Twilio/logo.png"
+        }]
+    }},
+    {"Zillow": {"RAMLFiles": [{
+        "name": "Zillow",
+        "description": "descriptionexamle",
+        "specAuthor": "mulesoft.com",
+        "RAMLVersion": "0.8",
+        "location": "https://raw.githubusercontent.com/raml-apis/Zillow/production/api.raml",
+        "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Zillow/production/api.json",
+        "developerPortalURI": "http://www.zillow.com/howto/api/APIOverview.htm",
+        "notebooks": [
+            {"Zillow (part 2 -- mortgage)": "https://raw.githubusercontent.com/raml-apis/Zillow/master/notebooks/mortgageOutdated.md"},
+            {"Zillow Notebook": "https://raw.githubusercontent.com/raml-apis/Zillow/master/notebooks/zillowNotebook.md"}
+        ]
+    }]}},
+    {"StackExchange": {
+        "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/StackExchange/logo.png",
+        "RAMLFiles": [{
+            "name": "StackExchange",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/StackExchange/production/stackExchange.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/StackExchange/production/stackExchange.json",
+            "developerPortalURI": "https://api.stackexchange.com/docs​",
+            "notebooks": [
+                {"Access-tokens, apps, errors, filters, inbox": "https://raw.githubusercontent.com/raml-apis/StackExchange/master/notebooks/accessTokensAppsErrorsFiltersInbox.md"},
+                {"Events, info, posts, privileges, questions": "https://raw.githubusercontent.com/raml-apis/StackExchange/master/notebooks/eventsInfoPostsPrivilegesQuestions.md"},
+                {"Me": "https://raw.githubusercontent.com/raml-apis/StackExchange/master/notebooks/me.md"},
+                {"Users": "https://raw.githubusercontent.com/raml-apis/StackExchange/master/notebooks/users.md"}
+            ],
+            "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/StackExchange/logo.png"
+        }]
+    }},
+    {"XKCD": {
+        "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/XKCD/logo.png",
+        "RAMLFiles": [
+            {
+                "name": "XKCD",
+                "description": "descriptionexamle",
+                "specAuthor": "mulesoft.com",
+                "RAMLVersion": "0.8",
+                "location": "https://raw.githubusercontent.com/raml-apis/XKCD/production/api.raml",
+                "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/XKCD/production/api.json",
+                "developerPortalURI": "http://xkcd.com/about",
+                "notebooks": [{"XKCD API Notebook": "https://raw.githubusercontent.com/raml-apis/XKCD/master/notebooks/xkcdApiNotebook.md"}],
+                "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/XKCD/logo.png"
+            },
+            {
+                "name": "XKCD",
+                "description": "descriptionexamle",
+                "specAuthor": "mulesoft.com",
+                "RAMLVersion": "1.0",
+                "location": "https://raw.githubusercontent.com/raml-apis/XKCD/raml1.0/api.raml",
+                "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/XKCD/raml1.0/api.json",
+                "developerPortalURI": "http://xkcd.com/about",
+                "notebooks": [{"XKCD API Notebook": "https://raw.githubusercontent.com/raml-apis/XKCD/master/notebooks/xkcdApiNotebook.md"}],
+                "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/XKCD/logo.png"
+            }
+        ]
+    }},
+    {"GrooveShark": {"RAMLFiles": [
+        {
+            "name": "Grooveshark API",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/GrooveShark/master/grooveshark.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/GrooveShark/master/grooveshark.json"
+        },
+        {
+            "name": "Grooveshark API",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/GrooveShark/staging/grooveshark.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/GrooveShark/staging/grooveshark.json"
+        }
+    ]}},
+    {"AmazonS3": {"RAMLFiles": [
+        {
+            "name": "Amazon S3 Buckets",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/AmazonS3/production/amazonS3Bucket.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/AmazonS3/production/amazonS3Bucket.json",
+            "notebooks": [
+                {"Buckets part 1": "https://raw.githubusercontent.com/raml-apis/AmazonS3/production/notebooks/amazonS3Bucket/bucketsPartOne.md"},
+                {"Buckets part 3": "https://raw.githubusercontent.com/raml-apis/AmazonS3/production/notebooks/amazonS3Bucket/bucketsPartThree.md"},
+                {"Buckets part 2": "https://raw.githubusercontent.com/raml-apis/AmazonS3/production/notebooks/amazonS3Bucket/bucketsPartTwo.md"},
+                {"Objects part 1": "https://raw.githubusercontent.com/raml-apis/AmazonS3/production/notebooks/amazonS3Bucket/objectsPartOne.md"},
+                {"Object part 3, restoration": "https://raw.githubusercontent.com/raml-apis/AmazonS3/production/notebooks/amazonS3Bucket/objectsPartThreeRestoration.md"},
+                {"Objects part 2": "https://raw.githubusercontent.com/raml-apis/AmazonS3/production/notebooks/amazonS3Bucket/objectsPartTwo.md"}
+            ]
+        },
+        {
+            "name": "Amazon S3 Services",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/AmazonS3/production/amazonS3Services.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/AmazonS3/production/amazonS3Services.json",
+            "notebooks": [{"Buckets part 3": "https://raw.githubusercontent.com/raml-apis/AmazonS3/production/notebooks/amazonS3Services/bucketsPartThree.md"}]
+        }
+    ]}},
+    {"GitHub": {"RAMLFiles": [
+        {
+            "name": "GitHub",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/GitHub/production/api.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/GitHub/production/api.json",
+            "notebooks": [
+                {"Gists": "https://raw.githubusercontent.com/raml-apis/GitHub/production/notebooks/api/gists.md"},
+                {"Gitignore, markdown, networks, legacy, emojis": "https://raw.githubusercontent.com/raml-apis/GitHub/production/notebooks/api/gitignoreMarkdownNetworksLegacyEmojis.md"},
+                {"Repos part 5": "https://raw.githubusercontent.com/raml-apis/GitHub/production/notebooks/api/reposPartFive.md"},
+                {"Repos part 4": "https://raw.githubusercontent.com/raml-apis/GitHub/production/notebooks/api/reposPartFour.md"},
+                {"Repos part 1": "https://raw.githubusercontent.com/raml-apis/GitHub/production/notebooks/api/reposPartOne.md"},
+                {"Repos part 6": "https://raw.githubusercontent.com/raml-apis/GitHub/production/notebooks/api/reposPartSix.md"},
+                {"Repos part 3": "https://raw.githubusercontent.com/raml-apis/GitHub/production/notebooks/api/reposPartThree.md"},
+                {"Repos part 2": "https://raw.githubusercontent.com/raml-apis/GitHub/production/notebooks/api/reposPartTwo.md"},
+                {"Search, events, feeds, meta, notifications": "https://raw.githubusercontent.com/raml-apis/GitHub/production/notebooks/api/searchEventsFeedsMetaNotifications.md"},
+                {"User": "https://raw.githubusercontent.com/raml-apis/GitHub/production/notebooks/api/user.md"},
+                {"Users, orgs and teams": "https://raw.githubusercontent.com/raml-apis/GitHub/production/notebooks/api/usersOrgsAndTeams.md"}
+            ]
+        },
+        {
+            "name": "GitHub Upload",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/GitHub/production/uploadsApi.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/GitHub/production/uploadsApi.json",
+            "notebooks": [{"Repos part 6": "https://raw.githubusercontent.com/raml-apis/GitHub/production/notebooks/uploadsApi/reposPartSix.md"}]
+        },
+        {
+            "name": "GitHub",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "1.0",
+            "location": "https://raw.githubusercontent.com/raml-apis/GitHub/raml1.0/api.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/GitHub/raml1.0/api.json",
+            "notebooks": [
+                {"Gists": "https://raw.githubusercontent.com/raml-apis/GitHub/raml1.0/notebooks/api/gists.md"},
+                {"Gitignore, markdown, networks, legacy, emojis": "https://raw.githubusercontent.com/raml-apis/GitHub/raml1.0/notebooks/api/gitignoreMarkdownNetworksLegacyEmojis.md"},
+                {"Repos part 5": "https://raw.githubusercontent.com/raml-apis/GitHub/raml1.0/notebooks/api/reposPartFive.md"},
+                {"Repos part 4": "https://raw.githubusercontent.com/raml-apis/GitHub/raml1.0/notebooks/api/reposPartFour.md"},
+                {"Repos part 1": "https://raw.githubusercontent.com/raml-apis/GitHub/raml1.0/notebooks/api/reposPartOne.md"},
+                {"Repos part 6": "https://raw.githubusercontent.com/raml-apis/GitHub/raml1.0/notebooks/api/reposPartSix.md"},
+                {"Repos part 3": "https://raw.githubusercontent.com/raml-apis/GitHub/raml1.0/notebooks/api/reposPartThree.md"},
+                {"Repos part 2": "https://raw.githubusercontent.com/raml-apis/GitHub/raml1.0/notebooks/api/reposPartTwo.md"},
+                {"Search, events, feeds, meta, notifications": "https://raw.githubusercontent.com/raml-apis/GitHub/raml1.0/notebooks/api/searchEventsFeedsMetaNotifications.md"},
+                {"User": "https://raw.githubusercontent.com/raml-apis/GitHub/raml1.0/notebooks/api/user.md"},
+                {"Users, orgs and teams": "https://raw.githubusercontent.com/raml-apis/GitHub/raml1.0/notebooks/api/usersOrgsAndTeams.md"}
+            ]
+        },
+        {
+            "name": "GitHub Upload",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/GitHub/raml1.0/uploadsApi.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/GitHub/raml1.0/uploadsApi.json",
+            "notebooks": [{"Repos part 6": "https://raw.githubusercontent.com/raml-apis/GitHub/raml1.0/notebooks/uploadsApi/reposPartSix.md"}]
+        }
+    ]}},
+    {"GoogleDrive": {"RAMLFiles": [
+        {
+            "name": "Google Drive",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/GoogleDrive/production/api.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/GoogleDrive/production/api.json",
+            "notebooks": [
+                {"About, changes, permissionIds, app": "https://raw.githubusercontent.com/raml-apis/GoogleDrive/production/notebooks/api/aboutChangesPermissionIdsAppChannels.md"},
+                {"File. part 1": "https://raw.githubusercontent.com/raml-apis/GoogleDrive/production/notebooks/api/filePartOne.md"},
+                {"File. part 2": "https://raw.githubusercontent.com/raml-apis/GoogleDrive/production/notebooks/api/filePartTwo.md"},
+                {"Upload API, File revisions": "https://raw.githubusercontent.com/raml-apis/GoogleDrive/production/notebooks/api/uploadApiFileRevisions.md"},
+                {"Watch": "https://raw.githubusercontent.com/raml-apis/GoogleDrive/production/notebooks/api/watch.md"}
+            ]
+        },
+        {
+            "name": "Google Drive Upload",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/GoogleDrive/production/uploadApi.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/GoogleDrive/production/uploadApi.json",
+            "notebooks": [{"Upload API, File revisions": "https://raw.githubusercontent.com/raml-apis/GoogleDrive/production/notebooks/uploadApi/uploadApiFileRevisions.md"}]
+        }
+    ]}},
+    {"SmartSheet": {"RAMLFiles": [{
+        "name": "Smartsheet",
+        "description": "descriptionexamle",
+        "specAuthor": "mulesoft.com",
+        "RAMLVersion": "0.8",
+        "location": "https://raw.githubusercontent.com/raml-apis/SmartSheet/production/api.raml",
+        "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/SmartSheet/production/api.json",
+        "developerPortalURI": "https://www.smartsheet.com/developers/api-documentation​",
+        "notebooks": [
+            {"Folder, templates, report, users, groups, search": "https://raw.githubusercontent.com/raml-apis/SmartSheet/master/notebooks/folderTemplatesReportUsersGroupsSear.md"},
+            {"Home, favorites, workspaces": "https://raw.githubusercontent.com/raml-apis/SmartSheet/master/notebooks/homeFavoritesWorkspaces.md"},
+            {"Sheet/attachments, sheet/publish, sheet/column": "https://raw.githubusercontent.com/raml-apis/SmartSheet/master/notebooks/sheetAttachmentsSheetPublishSheetColumn.md"},
+            {"Sheet/version, sheet/emails, sheet/columns": "https://raw.githubusercontent.com/raml-apis/SmartSheet/master/notebooks/sheetVersionSheetEmailsSheetColumns.md"}
+        ]
+    }]}},
+    {"Twitter": {"RAMLFiles": [
+        {
+            "name": "Twitter API",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/Twitter/production/api.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Twitter/production/api.json",
+            "notebooks": [
+                {"Friends/Followers": "https://raw.githubusercontent.com/raml-apis/Twitter/production/notebooks/api/friendsFollowers.md"},
+                {"List": "https://raw.githubusercontent.com/raml-apis/Twitter/production/notebooks/api/list.md"},
+                {"Saved Searches, Geo, Trends, Help, Apps": "https://raw.githubusercontent.com/raml-apis/Twitter/production/notebooks/api/savedsearchesGeoTrendsHelpApplication.md"},
+                {"Search, DMs, Blocks, Favorites": "https://raw.githubusercontent.com/raml-apis/Twitter/production/notebooks/api/searchesdirectMessagesblocksfavourites.md"},
+                {"Status": "https://raw.githubusercontent.com/raml-apis/Twitter/production/notebooks/api/statuses.md"},
+                {"Users": "https://raw.githubusercontent.com/raml-apis/Twitter/production/notebooks/api/users.md"}
+            ]
+        },
+        {
+            "name": "Twitter Streaming API",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/Twitter/production/userstreamApi.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Twitter/production/userstreamApi.json",
+            "notebooks": [{"Users": "https://raw.githubusercontent.com/raml-apis/Twitter/production/notebooks/userstreamApi/users.md"}]
+        }
+    ]}},
+    {"OpenStack": {"RAMLFiles": [
+        {
+            "name": "OpenStack Compute API",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/OpenStack/master/computeAPI.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/OpenStack/master/computeAPI.json"
+        },
+        {
+            "name": "OpenStack Database Service API",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/OpenStack/master/databasesAPI.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/OpenStack/master/databasesAPI.json"
+        },
+        {
+            "name": "OpenStack Data Processing API",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/OpenStack/master/dataprocessingAPI.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/OpenStack/master/dataprocessingAPI.json"
+        },
+        {
+            "name": "OpenStack Identity API",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/OpenStack/master/identityAPI.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/OpenStack/master/identityAPI.json"
+        },
+        {
+            "name": "OpenStack Identity API extensions",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/OpenStack/master/identityExtensionsAPI.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/OpenStack/master/identityExtensionsAPI.json"
+        },
+        {
+            "name": "OpenStack Image Service API",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/OpenStack/master/imageAPI.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/OpenStack/master/imageAPI.json"
+        },
+        {
+            "name": "OpenStack Networking API",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/OpenStack/master/netconnAPI.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/OpenStack/master/netconnAPI.json"
+        },
+        {
+            "name": "OpenStack Object Storage API",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/OpenStack/master/objectAPI.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/OpenStack/master/objectAPI.json"
+        },
+        {
+            "name": "OpenStack Orchestration API",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/OpenStack/master/orchestrationAPI.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/OpenStack/master/orchestrationAPI.json"
+        },
+        {
+            "name": "OpenStack Telemetry API",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/OpenStack/master/telemetryAPI.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/OpenStack/master/telemetryAPI.json"
+        },
+        {
+            "name": "OpenStack Block Storage API",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/OpenStack/master/volumeAPI.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/OpenStack/master/volumeAPI.json"
+        },
+        {
+            "name": "OpenStack Compute API",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/OpenStack/staging/computeAPI.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/OpenStack/staging/computeAPI.json"
+        },
+        {
+            "name": "OpenStack Database Service API",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/OpenStack/staging/databasesAPI.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/OpenStack/staging/databasesAPI.json"
+        },
+        {
+            "name": "OpenStack Data Processing API",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/OpenStack/staging/dataprocessingAPI.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/OpenStack/staging/dataprocessingAPI.json"
+        },
+        {
+            "name": "OpenStack Identity API",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/OpenStack/staging/identityAPI.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/OpenStack/staging/identityAPI.json"
+        },
+        {
+            "name": "OpenStack Identity API extensions",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/OpenStack/staging/identityExtensionsAPI.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/OpenStack/staging/identityExtensionsAPI.json"
+        },
+        {
+            "name": "OpenStack Image Service API",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/OpenStack/staging/imageAPI.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/OpenStack/staging/imageAPI.json"
+        },
+        {
+            "name": "OpenStack Networking API",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/OpenStack/staging/netconnAPI.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/OpenStack/staging/netconnAPI.json"
+        },
+        {
+            "name": "OpenStack Object Storage API",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/OpenStack/staging/objectAPI.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/OpenStack/staging/objectAPI.json"
+        },
+        {
+            "name": "OpenStack Orchestration API",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/OpenStack/staging/orchestrationAPI.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/OpenStack/staging/orchestrationAPI.json"
+        },
+        {
+            "name": "OpenStack Telemetry API",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/OpenStack/staging/telemetryAPI.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/OpenStack/staging/telemetryAPI.json"
+        },
+        {
+            "name": "OpenStack Block Storage API",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/OpenStack/staging/volumeAPI.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/OpenStack/staging/volumeAPI.json"
+        }
+    ]}},
+    {"HealthCare": {
+        "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/HealthCare/logo.png",
+        "RAMLFiles": [{
+            "name": "Healthcare",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/HealthCare/production/api.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/HealthCare/production/api.json",
+            "developerPortalURI": "https://www.healthcare.gov/developers",
+            "notebooks": [{"Healthcare.gov notebook": "https://raw.githubusercontent.com/raml-apis/HealthCare/master/notebooks/healthcareNotebook.md"}],
+            "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/HealthCare/logo.png"
+        }]
+    }},
+    {"Squareup": {"RAMLFiles": [{
+        "name": "Squareup",
+        "description": "descriptionexamle",
+        "specAuthor": "mulesoft.com",
+        "RAMLVersion": "0.8",
+        "location": "https://raw.githubusercontent.com/raml-apis/Squareup/production/squareup.raml",
+        "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Squareup/production/squareup.json",
+        "notebooks": [
+            {"Squareup API Notebook (items, inventory, root, batch)": "https://raw.githubusercontent.com/raml-apis/Squareup/master/notebooks/itemsInventoryRootBatch.md"},
+            {"Squareup API Notebook  (modifier-lists, categories, discounts, fees, pages)": "https://raw.githubusercontent.com/raml-apis/Squareup/master/notebooks/modifierlistsCategoriesDiscountsFeesPages.md"},
+            {"Squareup API Notebook (payments, settlements, refunds, orders, bank accounts, business, locations)": "https://raw.githubusercontent.com/raml-apis/Squareup/master/notebooks/paymentsSettlementsRefundsOrdersBankAccountsBusinessLocations.md"}
+        ]
+    }]}},
+    {"PivotalTracker": {"RAMLFiles": [
+        {
+            "name": "Pivotal Tracker",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/PivotalTracker/production/api.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/PivotalTracker/production/api.json",
+            "notebooks": [
+                {"Attachments, google attachments": "https://raw.githubusercontent.com/raml-apis/PivotalTracker/production/notebooks/api/attachmentsGoogleAttachments.md"},
+                {"Projects part 1, me, my, people": "https://raw.githubusercontent.com/raml-apis/PivotalTracker/production/notebooks/api/projectsPartOneMeMyPeople.md"},
+                {"Projects part 3": "https://raw.githubusercontent.com/raml-apis/PivotalTracker/production/notebooks/api/projectsPartThree.md"},
+                {"Projects part 2, stories, accounts, source commits": "https://raw.githubusercontent.com/raml-apis/PivotalTracker/production/notebooks/api/projectsPartTwoStoriesAccountsSourceCommits.md"}
+            ]
+        },
+        {
+            "name": "PivotalTracker Attachment Download",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/PivotalTracker/production/attachmentDownload.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/PivotalTracker/production/attachmentDownload.json",
+            "notebooks": [{"Attachments, google attachments": "https://raw.githubusercontent.com/raml-apis/PivotalTracker/production/notebooks/attachmentDownload/attachmentsGoogleAttachments.md"}]
+        }
+    ]}},
+    {"Eloqua": {"RAMLFiles": [
+        {
+            "name": "Eloqua",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/Eloqua/master/api.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Eloqua/master/api.json"
+        },
+        {
+            "name": "Eloqua",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/Eloqua/staging/api.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Eloqua/staging/api.json"
+        }
+    ]}},
+    {"AzureTableStorage": {"RAMLFiles": [{
+        "name": "Azure Table Storage",
+        "description": "descriptionexamle",
+        "specAuthor": "mulesoft.com",
+        "RAMLVersion": "0.8",
+        "location": "https://raw.githubusercontent.com/raml-apis/AzureTableStorage/production/tablestorage.raml",
+        "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/AzureTableStorage/production/tablestorage.json",
+        "developerPortalURI": "http://msdn.microsoft.com/en-us/library/azure/dd179423.aspx​",
+        "notebooks": [
+            {"Account Properties and Operations on Tables": "https://raw.githubusercontent.com/raml-apis/AzureTableStorage/master/notebooks/accountPropertiesAndOperationsOnTables.md"},
+            {"Operations on Entities": "https://raw.githubusercontent.com/raml-apis/AzureTableStorage/master/notebooks/operationsOnEntities.md"}
+        ]
+    }]}},
+    {"Elasticsearch": {"RAMLFiles": [{
+        "name": "Elasticsearch",
+        "description": "descriptionexamle",
+        "specAuthor": "mulesoft.com",
+        "RAMLVersion": "0.8",
+        "location": "https://raw.githubusercontent.com/raml-apis/Elasticsearch/production/api.raml",
+        "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Elasticsearch/production/api.json",
+        "developerPortalURI": "http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/index.html",
+        "notebooks": [
+            {"Elasticsearch (cat, cluster, aliases)": "https://raw.githubusercontent.com/raml-apis/Elasticsearch/master/notebooks/catClusterAliases.md"},
+            {"Elasticsearch (index)": "https://raw.githubusercontent.com/raml-apis/Elasticsearch/master/notebooks/index.md"},
+            {"Elasticsearch (index/type)": "https://raw.githubusercontent.com/raml-apis/Elasticsearch/master/notebooks/indexType.md"},
+            {"Elasticsearch (index/type/document)": "https://raw.githubusercontent.com/raml-apis/Elasticsearch/master/notebooks/indexTypeDocument.md"},
+            {"Elasticsearch (nodes, cache, segments, template, mtermvectors, mget, bulk, optimize, analyze)": "https://raw.githubusercontent.com/raml-apis/Elasticsearch/master/notebooks/nodesCacheSegmentsTemplateMtermvectorsMgetBulkOptimizeAnalyze.md"},
+            {"Elasticsearch (settings, mprecolate, search, msearch, mappings)": "https://raw.githubusercontent.com/raml-apis/Elasticsearch/master/notebooks/settingsMprecolateSearchMsearchMappings.md"},
+            {"Elasticsearch (warmer, warmers, status, flush, bench, stats, refresh)": "https://raw.githubusercontent.com/raml-apis/Elasticsearch/master/notebooks/warmerWarmersStatusFlushBenchStatsRefresh.md"}
+        ]
+    }]}},
+    {"Stripe": {
+        "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Stripe/logo.png",
+        "RAMLFiles": [{
+            "name": "Stripe",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/Stripe/production/stripe.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Stripe/production/stripe.json",
+            "developerPortalURI": "https://stripe.com/docs",
+            "notebooks": [
+                {"Accounts, customers, plans and coupons": "https://raw.githubusercontent.com/raml-apis/Stripe/master/notebooks/accountsCustomersPlansAndCoupons.md"},
+                {"Charges, invoices and invoice items": "https://raw.githubusercontent.com/raml-apis/Stripe/master/notebooks/chargesInvoicesAndInvoiceItems.md"},
+                {"Transfers, recepients, balance, events, tokens": "https://raw.githubusercontent.com/raml-apis/Stripe/master/notebooks/transfersRecepientsBalanceEventsTokens.md"}
+            ],
+            "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Stripe/logo.png"
+        }]
+    }},
+    {"Geonames": {
+        "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Geonames/logo.png",
+        "RAMLFiles": [{
+            "name": "GeoNames",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/Geonames/production/api.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Geonames/production/api.json",
+            "developerPortalURI": "http://www.geonames.org/export/web-services.html​",
+            "notebooks": [
+                {"Geonames part 1": "https://raw.githubusercontent.com/raml-apis/Geonames/master/notebooks/geonamesPartOne.md"},
+                {"Geonames part 2": "https://raw.githubusercontent.com/raml-apis/Geonames/master/notebooks/geonamesPartTwo.md"}
+            ],
+            "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Geonames/logo.png"
+        }]
+    }},
+    {"SlideShare": {
+        "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/SlideShare/logo.png",
+        "RAMLFiles": [{
+            "name": "Slideshare",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/SlideShare/production/slideshare.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/SlideShare/production/slideshare.json",
+            "developerPortalURI": "http://www.slideshare.net/developers/documentation",
+            "notebooks": [{"Slideshare API Notebook": "https://raw.githubusercontent.com/raml-apis/SlideShare/master/notebooks/slideshareApiNotebook.md"}],
+            "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/SlideShare/logo.png"
+        }]
+    }},
+    {"AccuWeather": {"RAMLFiles": [{
+        "name": "AccuWeather API",
+        "description": "descriptionexamle",
+        "specAuthor": "mulesoft.com",
+        "RAMLVersion": "0.8",
+        "location": "https://raw.githubusercontent.com/raml-apis/AccuWeather/production/accuWeather.raml",
+        "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/AccuWeather/production/accuWeather.json"
+    }]}},
+    {"Bufferapp": {"RAMLFiles": [
+        {
+            "name": "Bufferapp",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/Bufferapp/production/api.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Bufferapp/production/api.json",
+            "developerPortalURI": "https://bufferapp.com/developers/api",
+            "notebooks": [{"Bufferapp API Notebook": "https://raw.githubusercontent.com/raml-apis/Bufferapp/master/notebooks/bufferappApiNotebook.md"}]
+        },
+        {
+            "name": "Bufferapp",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "1.0",
+            "location": "https://raw.githubusercontent.com/raml-apis/Bufferapp/raml1.0/api.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Bufferapp/raml1.0/api.json",
+            "developerPortalURI": "https://bufferapp.com/developers/api",
+            "notebooks": [{"Bufferapp API Notebook": "https://raw.githubusercontent.com/raml-apis/Bufferapp/master/notebooks/bufferappApiNotebook.md"}]
+        }
+    ]}},
+    {"Salesforce": {"RAMLFiles": [{
+        "name": "SalesForce",
+        "description": "descriptionexamle",
+        "specAuthor": "mulesoft.com",
+        "RAMLVersion": "0.8",
+        "location": "https://raw.githubusercontent.com/raml-apis/Salesforce/production/salesforce.raml",
+        "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Salesforce/production/salesforce.json",
+        "developerPortalURI": "https://www.salesforce.com/us/developer/docs/api_rest/Content/resources_list.htm",
+        "notebooks": [
+            {"Password": "https://raw.githubusercontent.com/raml-apis/Salesforce/master/notebooks/password.md"},
+            {"Query, queryAll, recent, quickActions, limits": "https://raw.githubusercontent.com/raml-apis/Salesforce/master/notebooks/queryQueryallRecentQuickactionsLimits.md"},
+            {"SObjects": "https://raw.githubusercontent.com/raml-apis/Salesforce/master/notebooks/sobjects.md"}
+        ]
+    }]}},
+    {"PayPal": {"RAMLFiles": [
+        {
+            "name": "Pay Pal API",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/PayPal/master/api.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/PayPal/master/api.json"
+        },
+        {
+            "name": "Pay Pal API",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/PayPal/staging/api.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/PayPal/staging/api.json"
+        }
+    ]}},
+    {"GooglePrediction": {"RAMLFiles": [{
+        "name": "Google Predicion",
+        "description": "descriptionexamle",
+        "specAuthor": "mulesoft.com",
+        "RAMLVersion": "0.8",
+        "location": "https://raw.githubusercontent.com/raml-apis/GooglePrediction/staging/api.raml",
+        "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/GooglePrediction/staging/api.json",
+        "notebooks": [{"Google Prediction": "https://raw.githubusercontent.com/raml-apis/GooglePrediction/staging/notebooks/prediction.md"}]
+    }]}},
+    {"Meetup": {"RAMLFiles": [
+        {
+            "name": "Meetup",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/Meetup/master/meetup.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Meetup/master/meetup.json"
+        },
+        {
+            "name": "Meetup",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/Meetup/staging/meetup.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Meetup/staging/meetup.json"
+        }
+    ]}},
+    {"Twitch": {
+        "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Twitch/logo.png",
+        "RAMLFiles": [{
+            "name": "Twitch",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/Twitch/production/api.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Twitch/production/api.json",
+            "developerPortalURI": "https://github.com/justintv/Twitch-API/blob/master/README.md",
+            "notebooks": [{"Twitch.tv API notebook": "https://raw.githubusercontent.com/raml-apis/Twitch/master/notebooks/twitchApiNotebook.md"}],
+            "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Twitch/logo.png"
+        }]
+    }},
+    {"NewRelic": {
+        "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/NewRelic/logo.png",
+        "RAMLFiles": [{
+            "name": "NewRelic",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/NewRelic/production/newRelic.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/NewRelic/production/newRelic.json",
+            "developerPortalURI": "http://docs.newrelic.com/docs/apis/getting-started-with-the-new-relic-rest-api",
+            "notebooks": [
+                {"Applications, application hosts and instances": "https://raw.githubusercontent.com/raml-apis/NewRelic/master/notebooks/applicationsApplicationHostsAndInstances.md"},
+                {"Servers, users, alert policies": "https://raw.githubusercontent.com/raml-apis/NewRelic/master/notebooks/serversUsersAlertPolicies.md"}
+            ],
+            "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/NewRelic/logo.png"
+        }]
+    }},
+    {"Bitly": {
+        "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Bitly/logo.png",
+        "RAMLFiles": [{
+            "name": "Bitly",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/Bitly/production/api.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Bitly/production/api.json",
+            "developerPortalURI": "http://dev.bitly.com/",
+            "notebooks": [
+                {"Bundles": "https://raw.githubusercontent.com/raml-apis/Bitly/master/notebooks/bundles.md"},
+                {"Shorten, Expand, Info": "https://raw.githubusercontent.com/raml-apis/Bitly/master/notebooks/shortenExpandInfo.md"},
+                {"Users and Links": "https://raw.githubusercontent.com/raml-apis/Bitly/master/notebooks/usersAndLinks.md"}
+            ],
+            "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Bitly/logo.png"
+        }]
+    }},
+    {"FuelEconomy": {"RAMLFiles": [
+        {
+            "name": "Fuel Economy",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/FuelEconomy/production/api.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/FuelEconomy/production/api.json",
+            "developerPortalURI": "http://www.fueleconomy.gov/feg/ws/index.shtml",
+            "notebooks": [{"Fuel Economy API Notebook": "https://raw.githubusercontent.com/raml-apis/FuelEconomy/master/notebooks/fuelEconomyApiNotebook.md"}]
+        },
+        {
+            "name": "Fuel Economy",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "1.0",
+            "location": "https://raw.githubusercontent.com/raml-apis/FuelEconomy/raml1.0/api.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/FuelEconomy/raml1.0/api.json",
+            "developerPortalURI": "http://www.fueleconomy.gov/feg/ws/index.shtml",
+            "notebooks": [{"Fuel Economy API Notebook": "https://raw.githubusercontent.com/raml-apis/FuelEconomy/master/notebooks/fuelEconomyApiNotebook.md"}]
+        }
+    ]}},
+    {"Jira": {"RAMLFiles": [
+        {
+            "name": "Jira",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/Jira/production/api.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Jira/production/api.json",
+            "notebooks": [
+                {"Application-properties, Attachment, Auditing": "https://raw.githubusercontent.com/raml-apis/Jira/production/notebooks/api/applicationPropertiesAttachmentAuditing.md"},
+                {"Filter, IssueLinkType, Jql, LicenseValidator": "https://raw.githubusercontent.com/raml-apis/Jira/production/notebooks/api/filterIssuelinktypeJqlLicensevalidator.md"},
+                {"Group, Project, Myself": "https://raw.githubusercontent.com/raml-apis/Jira/production/notebooks/api/groupProjectMyself.md"},
+                {"Issue Part 3": "https://raw.githubusercontent.com/raml-apis/Jira/production/notebooks/api/issuePartThree.md"},
+                {"Issue Part 2": "https://raw.githubusercontent.com/raml-apis/Jira/production/notebooks/api/issuePartTwo.md"},
+                {"IssueLink, Issue Part 1": "https://raw.githubusercontent.com/raml-apis/Jira/production/notebooks/api/issuelinkIssuePartOne.md"},
+                {"Screens, Projectvalidate, Reindex, Resolution": "https://raw.githubusercontent.com/raml-apis/Jira/production/notebooks/api/screensProjectvalidateReindexResolution.md"},
+                {"User": "https://raw.githubusercontent.com/raml-apis/Jira/production/notebooks/api/user.md"},
+                {"Version": "https://raw.githubusercontent.com/raml-apis/Jira/production/notebooks/api/version.md"},
+                {"Workflow": "https://raw.githubusercontent.com/raml-apis/Jira/production/notebooks/api/workflow.md"},
+                {"Workflowscheme": "https://raw.githubusercontent.com/raml-apis/Jira/production/notebooks/api/workflowscheme.md"}
+            ]
+        },
+        {
+            "name": "Jira Authorization API",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/Jira/production/authApi.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Jira/production/authApi.json"
+        }
+    ]}},
+    {"WeatherUnderground": {"RAMLFiles": [
+        {
+            "name": "Weather Underground",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/WeatherUnderground/production/wunderground.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/WeatherUnderground/production/wunderground.json",
+            "notebooks": [{"Weather Underground notebook": "https://raw.githubusercontent.com/raml-apis/WeatherUnderground/production/notebooks/wunderground/weatherUndergroundNotebook.md"}]
+        },
+        {
+            "name": "Weather Underground AutoComplete",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/WeatherUnderground/production/wundergroundAutocompleteApi.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/WeatherUnderground/production/wundergroundAutocompleteApi.json",
+            "notebooks": [{"Weather Underground notebook": "https://raw.githubusercontent.com/raml-apis/WeatherUnderground/production/notebooks/wundergroundAutocompleteApi/weatherUndergroundNotebook.md"}]
+        }
+    ]}},
+    {"Flickr": {"RAMLFiles": [
+        {
+            "name": "Flickr API",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/Flickr/master/flickr.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Flickr/master/flickr.json"
+        },
+        {
+            "name": "Flickr API",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/Flickr/staging/flickr.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Flickr/staging/flickr.json"
+        }
+    ]}},
+    {"Freebase": {"RAMLFiles": [
+        {
+            "name": "Get Started with the Freebase API",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/Freebase/master/api.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Freebase/master/api.json"
+        },
+        {
+            "name": "Get Started with the Freebase API",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/Freebase/staging/api.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Freebase/staging/api.json"
+        }
+    ]}},
+    {"BlockScore": {
+        "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/BlockScore/logo.png",
+        "RAMLFiles": [{
+            "name": "BlockScore",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/BlockScore/staging/api.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/BlockScore/staging/api.json",
+            "developerPortalURI": "https://developer.flightstats.com/api-docs/",
+            "notebooks": [{"BlockScore": "https://raw.githubusercontent.com/raml-apis/BlockScore/staging/notebooks/notebook.md"}],
+            "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/BlockScore/logo.png"
+        }]
+    }},
+    {"GoogleMail": {"RAMLFiles": [
+        {
+            "name": "GMail",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/GoogleMail/production/api.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/GoogleMail/production/api.json",
+            "notebooks": [
+                {"Messages and Drafts": "https://raw.githubusercontent.com/raml-apis/GoogleMail/production/notebooks/api/messagesAndDrafts.md"},
+                {"Threads, History and Labels": "https://raw.githubusercontent.com/raml-apis/GoogleMail/production/notebooks/api/threadsHistoryAndLabels.md"}
+            ]
+        },
+        {
+            "name": "GMail Media Upload",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/GoogleMail/production/uploadApi.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/GoogleMail/production/uploadApi.json",
+            "notebooks": [{"GMail media upload": "https://raw.githubusercontent.com/raml-apis/GoogleMail/production/notebooks/uploadApi/gmailMediaUpload.md"}]
+        },
+        {
+            "name": "GMail",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "1.0",
+            "location": "https://raw.githubusercontent.com/raml-apis/GoogleMail/raml1.0/api.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/GoogleMail/raml1.0/api.json",
+            "notebooks": [
+                {"Messages and Drafts": "https://raw.githubusercontent.com/raml-apis/GoogleMail/raml1.0/notebooks/api/messagesAndDrafts.md"},
+                {"Threads, History and Labels": "https://raw.githubusercontent.com/raml-apis/GoogleMail/raml1.0/notebooks/api/threadsHistoryAndLabels.md"}
+            ]
+        },
+        {
+            "name": "GMail Media Upload",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "1.0",
+            "location": "https://raw.githubusercontent.com/raml-apis/GoogleMail/raml1.0/uploadApi.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/GoogleMail/raml1.0/uploadApi.json",
+            "notebooks": [{"GMail media upload": "https://raw.githubusercontent.com/raml-apis/GoogleMail/raml1.0/notebooks/uploadApi/gmailMediaUpload.md"}]
+        }
+    ]}}
+]}

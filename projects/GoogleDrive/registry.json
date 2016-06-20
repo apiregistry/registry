@@ -1,0 +1,26 @@
+{"apis": {"RAMLFiles": [
+    {
+        "name": "Google Drive",
+        "description": "descriptionexamle",
+        "specAuthor": "mulesoft.com",
+        "RAMLVersion": "0.8",
+        "location": "https://raw.githubusercontent.com/raml-apis/GoogleDrive/production/api.raml",
+        "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/GoogleDrive/production/api.json",
+        "notebooks": [
+            {"About, changes, permissionIds, app": "https://raw.githubusercontent.com/raml-apis/GoogleDrive/production/notebooks/api/aboutChangesPermissionIdsAppChannels.md"},
+            {"File. part 1": "https://raw.githubusercontent.com/raml-apis/GoogleDrive/production/notebooks/api/filePartOne.md"},
+            {"File. part 2": "https://raw.githubusercontent.com/raml-apis/GoogleDrive/production/notebooks/api/filePartTwo.md"},
+            {"Upload API, File revisions": "https://raw.githubusercontent.com/raml-apis/GoogleDrive/production/notebooks/api/uploadApiFileRevisions.md"},
+            {"Watch": "https://raw.githubusercontent.com/raml-apis/GoogleDrive/production/notebooks/api/watch.md"}
+        ]
+    },
+    {
+        "name": "Google Drive Upload",
+        "description": "descriptionexamle",
+        "specAuthor": "mulesoft.com",
+        "RAMLVersion": "0.8",
+        "location": "https://raw.githubusercontent.com/raml-apis/GoogleDrive/production/uploadApi.raml",
+        "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/GoogleDrive/production/uploadApi.json",
+        "notebooks": [{"Upload API, File revisions": "https://raw.githubusercontent.com/raml-apis/GoogleDrive/production/notebooks/uploadApi/uploadApiFileRevisions.md"}]
+    }
+]}}

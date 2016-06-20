@@ -1,0 +1,14 @@
+{"apis": {
+    "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/BlockScore/logo.png",
+    "RAMLFiles": [{
+        "name": "BlockScore",
+        "description": "descriptionexamle",
+        "specAuthor": "mulesoft.com",
+        "RAMLVersion": "0.8",
+        "location": "https://raw.githubusercontent.com/raml-apis/BlockScore/staging/api.raml",
+        "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/BlockScore/staging/api.json",
+        "developerPortalURI": "https://developer.flightstats.com/api-docs/",
+        "notebooks": [{"BlockScore": "https://raw.githubusercontent.com/raml-apis/BlockScore/staging/notebooks/notebook.md"}],
+        "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/BlockScore/logo.png"
+    }]
+}}

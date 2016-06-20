@@ -1,0 +1,22 @@
+{"apis": {"RAMLFiles": [
+    {
+        "name": "Instagram",
+        "description": "descriptionexamle",
+        "specAuthor": "mulesoft.com",
+        "RAMLVersion": "0.8",
+        "location": "https://raw.githubusercontent.com/raml-apis/Instagram/production/api.raml",
+        "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Instagram/production/api.json",
+        "developerPortalURI": "http://instagram.com/developer​",
+        "notebooks": [{"Instagram RAML API Notebook": "https://raw.githubusercontent.com/raml-apis/Instagram/master/notebooks/instagramNotebook.md"}]
+    },
+    {
+        "name": "Instagram",
+        "description": "descriptionexamle",
+        "specAuthor": "mulesoft.com",
+        "RAMLVersion": "1.0",
+        "location": "https://raw.githubusercontent.com/raml-apis/Instagram/raml1.0/api.raml",
+        "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Instagram/raml1.0/api.json",
+        "developerPortalURI": "http://instagram.com/developer​",
+        "notebooks": [{"Instagram RAML API Notebook": "https://raw.githubusercontent.com/raml-apis/Instagram/master/notebooks/instagramNotebook.md"}]
+    }
+]}}

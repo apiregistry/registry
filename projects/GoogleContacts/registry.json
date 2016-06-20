@@ -1,0 +1,14 @@
+{"apis": {
+    "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/GoogleContacts/logo.png",
+    "RAMLFiles": [{
+        "name": "Google Contacts API",
+        "description": "descriptionexamle",
+        "specAuthor": "mulesoft.com",
+        "RAMLVersion": "0.8",
+        "location": "https://raw.githubusercontent.com/raml-apis/GoogleContacts/production/gc.raml",
+        "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/GoogleContacts/production/gc.json",
+        "developerPortalURI": "https://developers.google.com/google-apps/contacts/v3/",
+        "notebooks": [{"Google Contacts (cloned)": "https://raw.githubusercontent.com/raml-apis/GoogleContacts/master/notebooks/notebook.md"}],
+        "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/GoogleContacts/logo.png"
+    }]
+}}

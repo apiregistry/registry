@@ -1,0 +1,14 @@
+{"apis": {"RAMLFiles": [{
+    "name": "SalesForce",
+    "description": "descriptionexamle",
+    "specAuthor": "mulesoft.com",
+    "RAMLVersion": "0.8",
+    "location": "https://raw.githubusercontent.com/raml-apis/Salesforce/production/salesforce.raml",
+    "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Salesforce/production/salesforce.json",
+    "developerPortalURI": "https://www.salesforce.com/us/developer/docs/api_rest/Content/resources_list.htm",
+    "notebooks": [
+        {"Password": "https://raw.githubusercontent.com/raml-apis/Salesforce/master/notebooks/password.md"},
+        {"Query, queryAll, recent, quickActions, limits": "https://raw.githubusercontent.com/raml-apis/Salesforce/master/notebooks/queryQueryallRecentQuickactionsLimits.md"},
+        {"SObjects": "https://raw.githubusercontent.com/raml-apis/Salesforce/master/notebooks/sobjects.md"}
+    ]
+}]}}

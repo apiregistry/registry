@@ -1,0 +1,10 @@
+{"apis": {"RAMLFiles": [{
+    "name": "Blogger",
+    "description": "descriptionexamle",
+    "specAuthor": "mulesoft.com",
+    "RAMLVersion": "0.8",
+    "location": "https://raw.githubusercontent.com/raml-apis/Blogger/production/api.raml",
+    "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Blogger/production/api.json",
+    "developerPortalURI": "https://developers.google.com/blogger/docs/3.0/reference/index",
+    "notebooks": [{"Blogger": "https://raw.githubusercontent.com/raml-apis/Blogger/production/notebooks/blogger.md"}]
+}]}}

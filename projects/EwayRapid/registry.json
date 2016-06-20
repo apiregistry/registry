@@ -1,0 +1,18 @@
+{"apis": {"RAMLFiles": [
+    {
+        "name": "Rapid API",
+        "description": "descriptionexamle",
+        "specAuthor": "mulesoft.com",
+        "RAMLVersion": "0.8",
+        "location": "https://raw.githubusercontent.com/raml-apis/EwayRapid/master/api.raml",
+        "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/EwayRapid/master/api.json"
+    },
+    {
+        "name": "Rapid API",
+        "description": "descriptionexamle",
+        "specAuthor": "mulesoft.com",
+        "RAMLVersion": "0.8",
+        "location": "https://raw.githubusercontent.com/raml-apis/EwayRapid/staging/api.raml",
+        "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/EwayRapid/staging/api.json"
+    }
+]}}

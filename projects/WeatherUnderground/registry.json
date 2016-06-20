@@ -1,0 +1,20 @@
+{"apis": {"RAMLFiles": [
+    {
+        "name": "Weather Underground",
+        "description": "descriptionexamle",
+        "specAuthor": "mulesoft.com",
+        "RAMLVersion": "0.8",
+        "location": "https://raw.githubusercontent.com/raml-apis/WeatherUnderground/production/wunderground.raml",
+        "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/WeatherUnderground/production/wunderground.json",
+        "notebooks": [{"Weather Underground notebook": "https://raw.githubusercontent.com/raml-apis/WeatherUnderground/production/notebooks/wunderground/weatherUndergroundNotebook.md"}]
+    },
+    {
+        "name": "Weather Underground AutoComplete",
+        "description": "descriptionexamle",
+        "specAuthor": "mulesoft.com",
+        "RAMLVersion": "0.8",
+        "location": "https://raw.githubusercontent.com/raml-apis/WeatherUnderground/production/wundergroundAutocompleteApi.raml",
+        "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/WeatherUnderground/production/wundergroundAutocompleteApi.json",
+        "notebooks": [{"Weather Underground notebook": "https://raw.githubusercontent.com/raml-apis/WeatherUnderground/production/notebooks/wundergroundAutocompleteApi/weatherUndergroundNotebook.md"}]
+    }
+]}}

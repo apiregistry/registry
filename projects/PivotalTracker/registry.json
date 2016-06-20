@@ -1,0 +1,25 @@
+{"apis": {"RAMLFiles": [
+    {
+        "name": "Pivotal Tracker",
+        "description": "descriptionexamle",
+        "specAuthor": "mulesoft.com",
+        "RAMLVersion": "0.8",
+        "location": "https://raw.githubusercontent.com/raml-apis/PivotalTracker/production/api.raml",
+        "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/PivotalTracker/production/api.json",
+        "notebooks": [
+            {"Attachments, google attachments": "https://raw.githubusercontent.com/raml-apis/PivotalTracker/production/notebooks/api/attachmentsGoogleAttachments.md"},
+            {"Projects part 1, me, my, people": "https://raw.githubusercontent.com/raml-apis/PivotalTracker/production/notebooks/api/projectsPartOneMeMyPeople.md"},
+            {"Projects part 3": "https://raw.githubusercontent.com/raml-apis/PivotalTracker/production/notebooks/api/projectsPartThree.md"},
+            {"Projects part 2, stories, accounts, source commits": "https://raw.githubusercontent.com/raml-apis/PivotalTracker/production/notebooks/api/projectsPartTwoStoriesAccountsSourceCommits.md"}
+        ]
+    },
+    {
+        "name": "PivotalTracker Attachment Download",
+        "description": "descriptionexamle",
+        "specAuthor": "mulesoft.com",
+        "RAMLVersion": "0.8",
+        "location": "https://raw.githubusercontent.com/raml-apis/PivotalTracker/production/attachmentDownload.raml",
+        "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/PivotalTracker/production/attachmentDownload.json",
+        "notebooks": [{"Attachments, google attachments": "https://raw.githubusercontent.com/raml-apis/PivotalTracker/production/notebooks/attachmentDownload/attachmentsGoogleAttachments.md"}]
+    }
+]}}

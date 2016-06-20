@@ -1,0 +1,27 @@
+{"apis": {
+    "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Slack/logo.png",
+    "RAMLFiles": [
+        {
+            "name": "Slack",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "0.8",
+            "location": "https://raw.githubusercontent.com/raml-apis/Slack/production/slack.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Slack/production/slack.json",
+            "developerPortalURI": "https://api.slack.com/",
+            "notebooks": [{"Slack API notebook": "https://raw.githubusercontent.com/raml-apis/Slack/master/notebooks/slackApiNotebook.md"}],
+            "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Slack/logo.png"
+        },
+        {
+            "name": "Slack",
+            "description": "descriptionexamle",
+            "specAuthor": "mulesoft.com",
+            "RAMLVersion": "1.0",
+            "location": "https://raw.githubusercontent.com/raml-apis/Slack/raml1.0/slack.raml",
+            "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Slack/raml1.0/slack.json",
+            "developerPortalURI": "https://api.slack.com/",
+            "notebooks": [{"Slack API notebook": "https://raw.githubusercontent.com/raml-apis/Slack/master/notebooks/slackApiNotebook.md"}],
+            "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/Slack/logo.png"
+        }
+    ]
+}}

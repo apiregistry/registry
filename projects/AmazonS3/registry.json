@@ -1,0 +1,27 @@
+{"apis": {"RAMLFiles": [
+    {
+        "name": "Amazon S3 Buckets",
+        "description": "descriptionexamle",
+        "specAuthor": "mulesoft.com",
+        "RAMLVersion": "0.8",
+        "location": "https://raw.githubusercontent.com/raml-apis/AmazonS3/production/amazonS3Bucket.raml",
+        "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/AmazonS3/production/amazonS3Bucket.json",
+        "notebooks": [
+            {"Buckets part 1": "https://raw.githubusercontent.com/raml-apis/AmazonS3/production/notebooks/amazonS3Bucket/bucketsPartOne.md"},
+            {"Buckets part 3": "https://raw.githubusercontent.com/raml-apis/AmazonS3/production/notebooks/amazonS3Bucket/bucketsPartThree.md"},
+            {"Buckets part 2": "https://raw.githubusercontent.com/raml-apis/AmazonS3/production/notebooks/amazonS3Bucket/bucketsPartTwo.md"},
+            {"Objects part 1": "https://raw.githubusercontent.com/raml-apis/AmazonS3/production/notebooks/amazonS3Bucket/objectsPartOne.md"},
+            {"Object part 3, restoration": "https://raw.githubusercontent.com/raml-apis/AmazonS3/production/notebooks/amazonS3Bucket/objectsPartThreeRestoration.md"},
+            {"Objects part 2": "https://raw.githubusercontent.com/raml-apis/AmazonS3/production/notebooks/amazonS3Bucket/objectsPartTwo.md"}
+        ]
+    },
+    {
+        "name": "Amazon S3 Services",
+        "description": "descriptionexamle",
+        "specAuthor": "mulesoft.com",
+        "RAMLVersion": "0.8",
+        "location": "https://raw.githubusercontent.com/raml-apis/AmazonS3/production/amazonS3Services.raml",
+        "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/AmazonS3/production/amazonS3Services.json",
+        "notebooks": [{"Buckets part 3": "https://raw.githubusercontent.com/raml-apis/AmazonS3/production/notebooks/amazonS3Services/bucketsPartThree.md"}]
+    }
+]}}

@@ -1,0 +1,19 @@
+{"apis": {
+    "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/StackExchange/logo.png",
+    "RAMLFiles": [{
+        "name": "StackExchange",
+        "description": "descriptionexamle",
+        "specAuthor": "mulesoft.com",
+        "RAMLVersion": "0.8",
+        "location": "https://raw.githubusercontent.com/raml-apis/StackExchange/production/stackExchange.raml",
+        "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/StackExchange/production/stackExchange.json",
+        "developerPortalURI": "https://api.stackexchange.com/docs​",
+        "notebooks": [
+            {"Access-tokens, apps, errors, filters, inbox": "https://raw.githubusercontent.com/raml-apis/StackExchange/master/notebooks/accessTokensAppsErrorsFiltersInbox.md"},
+            {"Events, info, posts, privileges, questions": "https://raw.githubusercontent.com/raml-apis/StackExchange/master/notebooks/eventsInfoPostsPrivilegesQuestions.md"},
+            {"Me": "https://raw.githubusercontent.com/raml-apis/StackExchange/master/notebooks/me.md"},
+            {"Users": "https://raw.githubusercontent.com/raml-apis/StackExchange/master/notebooks/users.md"}
+        ],
+        "logo": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/StackExchange/logo.png"
+    }]
+}}
