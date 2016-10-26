@@ -8,7 +8,7 @@
     {"name":"Google", "location":"https://raw.githubusercontent.com/apiregistry/googleapis/master/registry.json"},
     {"name":"AWS", "location":"https://raw.githubusercontent.com/apiregistry/aws/master/registry.json"},
     {"name":"Microsoft", "location":"https://raw.githubusercontent.com/apiregistry/microsoft/master/registry.json"},
-    {"name":"Misc", "location":"https://raw.githubusercontent.com/apiregistry/microsoft/master/registry.json"}
+    {"name":"Misc", "location":"https://raw.githubusercontent.com/apiregistry/misc/master/registry.json"}
    
   ]
 }
