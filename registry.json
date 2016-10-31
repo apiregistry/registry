@@ -2,7 +2,7 @@
   "libraries":[
     {"name": "RAML2Java Annotations","location":"https://raw.githubusercontent.com/OnPositive/aml/master/raml2java.raml","description":"Customize mapping of RAML types to Java"},
     {"name":"Mocking Service Processor", "location":"https://raw.githubusercontent.com/apiregistry/mock0/master/mock.raml", "description":"Mocking service"},
-    {"name":"Common Types & Annotations", "location":"https://raw.githubusercontent.com/apiregistry/commons/master/commons.raml", "description":"Set of common annotations"}
+    {"name":"Common Types & Annotations", "location":"https://raw.githubusercontent.com/apiregistry/commons/master/commons.raml", "description":"Set of common annotations"},
     {"name":"Type extras", "location":"https://raw.githubusercontent.com/apiregistry/typesExtras/master/typeExtras.raml"}
   ],
   "includes":[
