@@ -1,8 +1,8 @@
 {	
   "libraries":[
-    {"name": "RAML2Java Annotations","icon":"favicon.yandex.net/favicon/www.java.com","location":"https://raw.githubusercontent.com/OnPositive/aml/master/raml2java.raml","description":"Customize mapping of RAML types to Java"},
-    {"name":"Common Types & Annotations", "icon":"favicon.yandex.net/favicon/www.raml.org","location":"https://raw.githubusercontent.com/apiregistry/commons/master/commons.raml", "description":"Set of common annotations"},
-    {"name":"Type extras", "icon":"favicon.yandex.net/favicon/www.raml.org","location":"https://raw.githubusercontent.com/apiregistry/typesExtras/master/typeExtras.raml"}
+    {"name": "RAML2Java Annotations","icon":"https://favicon.yandex.net/favicon/www.java.com","location":"https://raw.githubusercontent.com/OnPositive/aml/master/raml2java.raml","description":"Customize mapping of RAML types to Java"},
+    {"name":"Common Types & Annotations", "icon":"https://favicon.yandex.net/favicon/www.raml.org","location":"https://raw.githubusercontent.com/apiregistry/commons/master/commons.raml", "description":"Set of common annotations"},
+    {"name":"Type extras", "icon":"https://favicon.yandex.net/favicon/www.raml.org","location":"https://raw.githubusercontent.com/apiregistry/typesExtras/master/typeExtras.raml"}
   ],
   "includes":[
     {"name":"Google", "location":"https://raw.githubusercontent.com/apiregistry/googleapis/master/registry.json"},
