@@ -1,8 +1,0 @@
-{"apis": {"RAMLFiles": [{
-    "name": "MediaWiki",
-    "description": "descriptionexamle",
-    "specAuthor": "mulesoft.com",
-    "RAMLVersion": "1.0",
-    "location": "https://raw.githubusercontent.com/raml-apis/MediaWiki/raml1.0/api.raml",
-    "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/MediaWiki/raml1.0/api.json"
-}]}}

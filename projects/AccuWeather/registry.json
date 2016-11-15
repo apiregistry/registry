@@ -1,8 +1,0 @@
-{"apis": {"RAMLFiles": [{
-    "name": "AccuWeather API",
-    "description": "descriptionexamle",
-    "specAuthor": "mulesoft.com",
-    "RAMLVersion": "0.8",
-    "location": "https://raw.githubusercontent.com/raml-apis/AccuWeather/production/accuWeather.raml",
-    "raml-1-parser_result": "https://raw.githubusercontent.com/apiregistry/registry/master/projects/AccuWeather/production/accuWeather.json"
-}]}}
