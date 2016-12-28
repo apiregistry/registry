@@ -7127,7 +7127,22 @@
     "originalSpecLanguage" : null,
     "tags" : [ ],
     "localRegistry" : null
-  }, {
+  },
+  {
+    "name" : "RAML Types",
+    "org" : null,
+    "product" : null,
+    "version" : null,
+    "description" : null,
+    "icon" : "https://favicon.yandex.net/favicon/www.raml.org",
+    "location" : "https://raw.githubusercontent.com/apiregistry/typesExtras/master/ramlTypes.raml",
+    "kind" : null,
+    "originalLocation" : null,
+    "originalSpecLanguage" : null,
+    "tags" : [ ],
+    "localRegistry" : null
+  },
+  {
     "name" : "Type extras",
     "org" : null,
     "product" : null,
