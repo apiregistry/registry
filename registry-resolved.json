@@ -7155,7 +7155,21 @@
     "originalSpecLanguage" : null,
     "tags" : [ ],
     "localRegistry" : null
-  }, {
+  },{
+    "name" : "RAML Vocabulary",
+    "org" : null,
+    "product" : null,
+    "version" : null,
+    "description" : null,
+    "icon" : "https://favicon.yandex.net/favicon/www.raml.org",
+    "location" : "https://raw.githubusercontent.com/petrochenko-pavel-a/raml-dialects-syntax-experiments/master/vocabalary.raml",
+    "kind" : null,
+    "originalLocation" : null,
+    "originalSpecLanguage" : null,
+    "tags" : [ ],
+    "localRegistry" : null
+  }              
+                 , {
     "name" : "AWS Apigateway annotations",
     "org" : null,
     "product" : null,
